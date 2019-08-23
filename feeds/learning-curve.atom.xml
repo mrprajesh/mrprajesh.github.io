@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - Learning Curve</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/learning-curve.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-08-19T14:37:01+05:30</updated><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-08-19T14:37:01+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
+I am making a note of whatever I had(/have been) learnt(/learning) 
+during my stay at IIT Madras.  &lt;/p&gt;
+&lt;p&gt;The following are :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git &lt;/li&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;&lt;span class="math"&gt;\(\LaTeX …&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
+I am making a note of whatever I had(/have been) learnt(/learning) 
+during my stay at IIT Madras.  &lt;/p&gt;
+&lt;p&gt;The following are :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git &lt;/li&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;&lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/mrprajesh/352cbe661ee27a6b4627ae72d89479e6"&gt;nvprof&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html"&gt;Handling a Lab course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GrenMarl&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;// Todo: will point more links as I update!&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2&gt;First Lab&lt;/h2&gt;
+&lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
+&lt;p&gt;Instructor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We should know the strength of the class and give them how the lab is going be conducted.&lt;/li&gt;
+&lt;li&gt;System logins ready&lt;/li&gt;
+&lt;li&gt;Create a sheet that had list of assignments and list of TA per assignments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TAs …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;First Lab&lt;/h2&gt;
+&lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
+&lt;p&gt;Instructor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We should know the strength of the class and give them how the lab is going be conducted.&lt;/li&gt;
+&lt;li&gt;System logins ready&lt;/li&gt;
+&lt;li&gt;Create a sheet that had list of assignments and list of TA per assignments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TAs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a sample simple hacker rank contest problem.&lt;/li&gt;
+&lt;li&gt;Create the PDF &lt;/li&gt;
+&lt;li&gt;Create the moodle submission links, etc&lt;/li&gt;
+&lt;li&gt;They will get used to hackerrank, moodle, etc;&lt;/li&gt;
+&lt;li&gt;Let them aware of the Design Submission and hackerrank deadlines;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Lab TA&lt;/h2&gt;
+&lt;h3&gt;Ack&lt;/h3&gt;
+&lt;p&gt;Handling lab course was a challenge. Hackerrank Contest + Moodle. 
+Learnt a lot as a Teaching Assistant for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;CS2810&lt;/a&gt;&lt;/p&gt;</content></entry></feed>

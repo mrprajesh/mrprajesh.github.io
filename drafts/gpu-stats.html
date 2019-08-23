@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title> Rajesh Pandian M - About Me</title>
+        <title>GPU Stats! - Rajesh Pandian M </title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="./theme/css/main.css" type="text/css" />
-        <link href="./" type="application/atom+xml" rel="alternate" title="Rajesh Pandian M ATOM Feed" />
+        <link rel="stylesheet" href="../theme/css/main.css" type="text/css" />
+        <link href="../" type="application/atom+xml" rel="alternate" title="Rajesh Pandian M ATOM Feed" />
 
 
         <!--[if IE]>
                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
         <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="./css/ie.css"/>
-                <script src="./js/IE8.js" type="text/javascript"></script><![endif]-->
+                <link rel="stylesheet" type="text/css" media="all" href="../css/ie.css"/>
+                <script src="../js/IE8.js" type="text/javascript"></script><![endif]-->
 
         <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="./css/ie6.css"/><![endif]-->
+                <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
 		
 		<script>
 		function getLastModified() {
@@ -27,53 +27,123 @@
 
 <body id="index" class="home" onload=getLastModified()>
         <header id="banner" class="body">
-                <h1><a href="./index.html">Rajesh Pandian M </a></h1>
+                <h1><a href="../index.html">Rajesh Pandian M </a></h1>
                 <nav><ul>
-                    <li class="active"><a href="./">About Me</a></li>
-                    <li ><a href="./pages/education.html">Education</a></li>
-                    <li ><a href="./pages/research.html">Research</a></li>
-                    <li ><a href="./pages/tools.html">Tools</a></li>
-                    <li ><a href="./pages/contact.html">Contact</a></li>
+                    <li ><a href="../">About Me</a></li>
+                    <li ><a href="../pages/education.html">Education</a></li>
+                    <li ><a href="../pages/research.html">Research</a></li>
+                    <li ><a href="../pages/tools.html">Tools</a></li>
+                    <li ><a href="../pages/contact.html">Contact</a></li>
 
-				   <li ><a href="./category/learning-curve.html">Learning Curve</a></li>
-				   <li ><a href="./category/news.html">News</a></li>
+				   <li class="active"><a href="../category/learning-curve.html">Learning Curve</a></li>
+				   <li ><a href="../category/news.html">News</a></li>
 		
 <!--
-                <li><a href="./">Archives</a></li>
+                <li><a href="../">Archives</a></li>
 -->
                 </ul></nav>
         </header><!-- /#banner -->
 
-        
-<section id="content" class="body">    
-    <h1 class="entry-title">About Me</h1>
-    <p><img src="images/Rajz.jpg" alt="Picture of Rajesh" style="float:right;height: 100px;width: 100px;"/></p>
-<p>My name is Rajesh Pandian M. I am from Madurai, Tamil Nadu, India. 
-I am a Ph.D. Scholar at <a href="http://www.cse.iitm.ac.in/">Department of Computer Science &amp; Engineering</a> @ <a href="http://www.iitm.ac.in/">IIT Madras</a>. 
-I belong to <a href="http://theory.cse.iitm.ac.in/">Theoretical Computer Science</a> Group/Lab fondly called as TCS Lab.
-I am really fortunate to get <a href="http://www.cse.iitm.ac.in/~swamy/">Prof.N.S.Narayanaswamy</a> as my Doctoral advisor.</p>
-<p>I'll always go after the things that are impossible (to others) and passionate (to me). 
-I have completed my under graduation at Thiagarajar College of Engineering. 
-I did my masters after few years of stint as software engineer in industry. 
-I have a great passion for GNU's Philosophy and Free &amp; Open Source Software.</p>
-<p>I am a <s>grey hat hacker </s> ..ssshh! ;-) . 
-I wish to be a grey hat hacker. 
-I love programming, computers and gadgets. 
-As a hobby, I sneak into websites by exploiting their weakspot and 
-eavesdrop then I'll get out. But never smoke'em down. 
-Hmm, Tell me something that is difficult to do with computer 
-I will show you a way to do it smarter and faster. 
-Yeah! that's what I am in one line. ;-)</p>
-<p>My <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy">PGP</a> Key ID is 0xEA64BABE. 
-If you wish to send me an encrypted email you are always welcome! :-) </p>
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="drafts/gpu-stats.html"
+        rel="bookmark" title="Permalink to GPU Stats!">GPU Stats!</a></h1> <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mrprajesh">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+ </header>
+        <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-05-31T15:49:38+05:30">
+               Created : 31-May-2018
+        </abbr>
+		
+        <address class="vcard author">
+                By <a class="url fn" href="../author/rajesh-pandian-m.html">Rajesh Pandian M</a>
+        </address>
+<p>In <a href="../category/learning-curve.html">Learning Curve</a>. </p>
+</p></footer><!-- /.post-info --><!-- /.post-info -->
+        <p>Hello ! 
+This is for displaying stats of my GPU implementations! 
+There are several implementations for SSP and Steiner tree problem[coming soon!].
+The below is a sample stats. Real data will be updated soon!
+<div class="container">
+    <div class="table-responsive spacious-container fl-scrolls-hoverable">
+        <div align="center">
+         <button type="button" name="load_data" id="load_data" class="btn btn-info">Refresh Stats</button>
+        </div>
+        <br />
+        <div id="employee_table" style="overflow-x:auto;">
+        </div>
+    </div>
+</div></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<style>
+table th {
+    background-color: #444444;
+    color: white;
+}
+table, th , td  {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+ $('#load_data').click(function(){
+    $.ajax({
+   url:"csvs/marks.csv",
+   dataType:"text",
+   success:function(data)
+   {
+    var employee_data = data.split(/\r?\n|\r/);
+    var table_data = '<table class="table table-bordered table-striped">';
+    for(var count = 0; count<employee_data.length; count++)
+    {
+     employee_data[count].trim();
+     if(employee_data[count].length ==0)
+        continue;
+     var cell_data = employee_data[count].split(",");
+     table_data += '<tr>';
+     for(var cell_count=0; cell_count<cell_data.length; cell_count++)
+     {
+      if(count === 0)
+      {
+       table_data += '<th>'+cell_data[cell_count]+'</th>';
+      }
+      else
+      {
+       table_data += '<td>'+cell_data[cell_count]+'</td>';
+      }
+     }
+     table_data += '</tr>';
+    }
+    table_data += '</table>';
+    $('#employee_table').html(table_data);
+   }
+  });
+
+ });
+
+});
+</script>
+        </div><!-- /.entry-content -->
+
+</article>
 </section>
 
         <aside id="sidebar">
                 <div class="widget">
                         <h2>Categories</h2>
                         <ul>
-                           <li ><a href="./category/learning-curve.html">Learning Curve</a></li>
-                           <li ><a href="./category/news.html">News</a></li>
+                           <li class="active"><a href="../category/learning-curve.html">Learning Curve</a></li>
+                           <li ><a href="../category/news.html">News</a></li>
                         </ul>
                 </div>
                 <div class="widget blogroll">
@@ -91,7 +161,7 @@ If you wish to send me an encrypted email you are always welcome! :-) </p>
                 <div class="widget social">
                         <h2>Social</h2>
                         <ul>
-                            <li><a href="./feeds/all.atom.xml" rel="alternate">atom feed</a></li>
+                            <li><a href="../feeds/all.atom.xml" rel="alternate">atom feed</a></li>
 
                             <li><a href="https://github.com/mrprajesh"> GitHub</a></li>
                             <li><a href="https://twitter.com/mrprajesh"> Twitter</a></li>

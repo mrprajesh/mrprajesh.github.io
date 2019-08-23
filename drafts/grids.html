@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Grids! - Rajesh Pandian M </title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../theme/css/main.css" type="text/css" />
+        <link href="../" type="application/atom+xml" rel="alternate" title="Rajesh Pandian M ATOM Feed" />
+
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../css/ie.css"/>
+                <script src="../js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
+		
+		<script>
+		function getLastModified() {
+			var x = new Date(document.lastModified);
+			document.getElementById("LDate").innerHTML = 'Last Modified on : '+x;
+		}
+		</script>
+</head>
+
+<body id="index" class="home" onload=getLastModified()>
+        <header id="banner" class="body">
+                <h1><a href="../index.html">Rajesh Pandian M </a></h1>
+                <nav><ul>
+                    <li ><a href="../">About Me</a></li>
+                    <li ><a href="../pages/education.html">Education</a></li>
+                    <li ><a href="../pages/research.html">Research</a></li>
+                    <li ><a href="../pages/tools.html">Tools</a></li>
+                    <li ><a href="../pages/contact.html">Contact</a></li>
+
+				   <li class="active"><a href="../category/learning-curve.html">Learning Curve</a></li>
+				   <li ><a href="../category/news.html">News</a></li>
+		
+<!--
+                <li><a href="../">Archives</a></li>
+-->
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="drafts/grids.html"
+        rel="bookmark" title="Permalink to Grids!">Grids!</a></h1> <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mrprajesh">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+ </header>
+        <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2017-12-20T15:15:38+05:30">
+               Created : 20-Dec-2017
+        </abbr>
+		
+        <address class="vcard author">
+                By <a class="url fn" href="../author/rajesh-pandian-m.html">Rajesh Pandian M</a>
+        </address>
+<p>In <a href="../category/learning-curve.html">Learning Curve</a>. </p>
+</p></footer><!-- /.post-info --><!-- /.post-info -->
+        <h2>Abstract</h2>
+<p>The aim is to solve the NP-hard problems(in general graphs) on grids.
+Grid is smaller class graph with a nice structural property. 
+It is a planar, bipartite and non-chordal graph. 
+A <span class="math">\(n\)</span> vertex grid has a treewidth <span class="math">\(\sqrt n\)</span>. 
+As we know that the grid can be recognised in linear time, what other problems
+on grid can be solved in linear time. 
+This is one of the motivation for writing this article. </p>
+<h1>Problem statement</h1>
+<ul>
+<li>Input: Finite square grid on <span class="math">\(m\)</span> rows and <span class="math">\(n\)</span> columns.</li>
+<li>Output: Minimum Vertex cover(MVC), Maximum Independant set(MIS), 
+Minimum Dominating set(MDS) and Minimum Fill-in.</li>
+</ul>
+<h2>Introduction</h2>
+<p>Problems that are hard on general graphs
+might be solvable in polynomial time in smaller class of graphs. 
+If the problem is NP-hard on some <em>smaller class</em> of graphs, then
+the problem is also NP hard on <em>arbitrary</em> graphs. Whereas,
+if the problem is NP hard on arbitrary graphs, 
+then it need not be hard on smaller class of graphs.</p>
+<h2>Preliminaries and Notations</h2>
+<p>Given a <span class="math">\(m \times n\)</span>- square grid and let the graph corresponding to it is <span class="math">\(G(V,E)\)</span>.
+The total number of vertices and edges of <span class="math">\(G\)</span> is <span class="math">\(|V|\)</span> and <span class="math">\(|E|\)</span> respectively. 
+<span class="math">\(|V|=mn\)</span> and <span class="math">\(|E|=m(n-1)+n(m-1)=2mn-(m+n)\)</span>. 
+In case the rows and columns are equal i.e <span class="math">\(m=n\)</span> then <span class="math">\(|V|=n^2\)</span> and <span class="math">\(|E|=2n^2-2n\)</span>.
+Let the vertex set <span class="math">\(V = \{0,1, \dots, n^2-1 \}\)</span> 
+    represents the vertex numbers from top left
+to the right bottom of the grid.</p>
+<h2>Algorithms on grid.</h2>
+<h3>Minimum vertex cover(MVC) Problem and Maximum Independent Set (MIS) Problem</h3>
+<p>In bipartite graph it is well known that the size of minimum vertex cover 
+    is equal to the size of the maximum carnality matching. 
+This is the most celebrated König's theorem.
+The fastest algorithm known (to the best of our knowledge) for maximum
+    cardinality matching on bipartite graphs runs in <span class="math">\(O(m \sqrt n )\)</span> time 
+Here, <span class="math">\(m\)</span> and <span class="math">\(n\)</span> represents edges and nodes respectively.
+Therefore, the same algorithm can be used to find the MVC on grids.
+However we have simpler algorithm which runs linear time.
+It does not need to look at the graph to output the MVC.
+The independent set and vertex cover are dual to each other. 
+If we compute the Minimum vertex cover(MVC) say <span class="math">\(S \subset V\)</span> 
+    then the Maximum Independent Set(MIS) is <span class="math">\(V \setminus S\)</span> and it is straight forward.</p>
+<h4>Vertex Cover algorithm</h4>
+<ul>
+<li><span class="math">\(S = \emptyset\)</span></li>
+<li>for(int i=0; i&lt;  m; i++){<ul>
+<li>for(int j=0; j&lt; n; j++){<ul>
+<li>if ( (i+j) % 2 == 1) { // if the sum is an odd value<ul>
+<li><span class="math">\(S = S \cup \{ v_{i+j} \}\)</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4>Correctness and analysis</h4>
+<p><strong>Claim</strong> : Let <span class="math">\(G(V,E)\)</span> be a <span class="math">\(m,n\)</span> grid and <span class="math">\(S \subseteq V\)</span> be a vertex cover of <span class="math">\(G\)</span> with the following property: 
+If for each edge <span class="math">\(e \in E\)</span> there exactly one vertex in <span class="math">\(S\)</span> that covers <span class="math">\(e\)</span>
+then, <span class="math">\(S\)</span> is a MVC of <span class="math">\(G\)</span> </p>
+<p><strong>Proof</strong> : This claim says it is a minimal vertex cover.</p>
+<h4>Size of the vertex Cover</h4>
+<ul>
+<li>The size of the vertex cover is <span class="math">\(\lfloor \frac{mn}{2} \rfloor\)</span></li>
+<li>
+<p>If <span class="math">\(n\)</span> and <span class="math">\(m\)</span> are both odd number only then the floor would come into picture.</p>
+</li>
+<li>
+<p><em>Observation</em> If any one of <span class="math">\(n\)</span> or <span class="math">\(m\)</span> is an even number then the MVC and MIS is same.</p>
+</li>
+<li>Therefore if <span class="math">\(n\)</span> and <span class="math">\(m\)</span> are both odd, then MIS is V <span class="math">\(\setminus S\)</span>.</li>
+</ul>
+<h3>Minimum Dominating Set(MDS) Problem</h3>
+<p>The main observations </p>
+<h3>Minimum Fill-in Problem</h3>
+<p>Claim: There exits a tree decomposition for a graph <span class="math">\(G(V,E)\)</span>,
+such that completing the bags yeilds the minimum fill in edges. </p>
+<h2>Conclusion</h2>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+        </div><!-- /.entry-content -->
+
+</article>
+</section>
+
+        <aside id="sidebar">
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li class="active"><a href="../category/learning-curve.html">Learning Curve</a></li>
+                           <li ><a href="../category/news.html">News</a></li>
+                        </ul>
+                </div>
+                <div class="widget blogroll">
+                        <h2>Blogroll</h2>
+                        <ul>
+                            <li><a href="http://jeshthink.blogspot.com/">Personal Blog</a></li>
+                            <li><a href="http://mrprajesh.blogspot.com/">Tech Blog</a></li>
+                            <li><a href="http://theory.cse.iitm.ac.in">Theoretical CS Lab</a></li>
+                            <li><a href="http://statcounter.com/">Unique visitors:  <img src="//c.statcounter.com/11617236/0/a2429d81/0/" alt="StatCounter" ></a></li>
+                            <li><a href="http://statcounter.com">Page hits:   <img src="//c.statcounter.com/11617242/0/19c44117/0/" alt="StatCounter" ></a></li>
+                            <li><a href="https://www.youtube.com/channel/UC7AYCv3SJotZtyfNuT_UBqA/about"> Channel for School</a></li>
+                            <li><a href="https://www.youtube.com/YCLAAcademy/about"> Channel for College</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="../feeds/all.atom.xml" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://github.com/mrprajesh"> GitHub</a></li>
+                            <li><a href="https://twitter.com/mrprajesh"> Twitter</a></li>
+                            <li><a href="https://facebook.com/mrprajesh"> Facebook</a></li>
+                            <li><a href="https://www.linkedin.com/in/rajesh-pandian-muniasamy-524717a/"> Linkedin</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </aside><!-- /#sidebar -->
+		
+		
+		
+		
+		
+        
+        <footer id="footer" class="body">
+                <!-- 
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
+                </address> <!--/#about -->
+				<!--
+				 <p>The theme is «notmyidea-cms», a modified version of «notmyidea», the default theme.</p>
+				 <!--/#about : RETAINNING IN COMMENTS as a  NICE GESTURE -->
+                <p> Made with ❤ <a href="http://getpelican.com/">Pelican</a> | <a href="http://python.org">Python</a>
+                | Customized <a href="https://github.com/mrprajesh/notmyidea-cms-rajz">«notmyidea-cms»</a> theme.
+                </p> 
+                
+                 <p id="LDate">Last Modified On: </p>
+        </footer><!-- /#footer -->
+
+<!--
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://mrprajesh.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->        
+
+
+</body>
+</html>

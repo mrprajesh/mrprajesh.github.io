@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-08-19T14:37:01+05:30</updated><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-08-19T14:37:01+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
+I am making a note of whatever I had(/have been) learnt(/learning) 
+during my stay at IIT Madras.  &lt;/p&gt;
+&lt;p&gt;The following are :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git &lt;/li&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;&lt;span class="math"&gt;\(\LaTeX …&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
+I am making a note of whatever I had(/have been) learnt(/learning) 
+during my stay at IIT Madras.  &lt;/p&gt;
+&lt;p&gt;The following are :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git &lt;/li&gt;
+&lt;li&gt;Markdown&lt;/li&gt;
+&lt;li&gt;&lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/mrprajesh/352cbe661ee27a6b4627ae72d89479e6"&gt;nvprof&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html"&gt;Handling a Lab course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GrenMarl&lt;/li&gt;
+&lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;// Todo: will point more links as I update!&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content></entry><entry><title>First Submission to a Conf!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/first-submission-to-a-conf.html" rel="alternate"></link><published>2019-04-23T17:11:00+05:30</published><updated>2019-04-23T17:11:00+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-04-23:/~mrprajesh/first-submission-to-a-conf.html</id><summary type="html">&lt;p&gt;Submitted our work to a conference. More later!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Submitted our work to a conference. More later!&lt;/p&gt;</content></entry><entry><title>CALDAM Pre-Conference School!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/caldam-pre-conference-school.html" rel="alternate"></link><published>2019-02-12T09:15:38+05:30</published><updated>2019-02-12T09:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-02-12:/~mrprajesh/caldam-pre-conference-school.html</id><summary type="html">&lt;p&gt;Rajesh has attended the &lt;a href="http://cse.iitkgp.ac.in/conf/CALDAM/conferenceschool.php?1550837734"&gt;CALDAM Pree-conference school 2019 &lt;/a&gt; which happened at IIT Kharagpur between Feb 11-12 2019. It is also called as CALDAM Indo-Italian Pre-Conference School on Algorithms and Combinatorics. There were many good speakers and their talk we very good. Especially Prof. Anil Maheswari, Prof. Ajit Diwan, Prof. Alberto …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh has attended the &lt;a href="http://cse.iitkgp.ac.in/conf/CALDAM/conferenceschool.php?1550837734"&gt;CALDAM Pree-conference school 2019 &lt;/a&gt; which happened at IIT Kharagpur between Feb 11-12 2019. It is also called as CALDAM Indo-Italian Pre-Conference School on Algorithms and Combinatorics. There were many good speakers and their talk we very good. Especially Prof. Anil Maheswari, Prof. Ajit Diwan, Prof. Alberto Policriti and Dr. Luca Pappalardo. Travel, Boarding and lodging was provided by IITKGP. Good to see Prof. Ghosh initiative. Next CALDAM is at Hyderabad. &lt;/p&gt;</content></entry><entry><title>NVIDIA-IITM Hackathon 2019!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/nvidia-iitm-hackathon-2019.html" rel="alternate"></link><published>2019-01-28T22:15:38+05:30</published><updated>2019-01-28T22:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-01-28:/~mrprajesh/nvidia-iitm-hackathon-2019.html</id><summary type="html">&lt;p&gt;Rajesh has attended the &lt;a href="http://www.cse.iitm.ac.in/~rupesh/events/nvidia-iitm-hackathon-2019/"&gt;NVIDIA-IITM Hackathon&lt;/a&gt; which happened at CSE department, IIT Madras between Jan 24+25 2019. 
+Bharath Kumar was mentoring us. We learned many stuffs including OpenACC, CUDA, Profiling CPU/GPU code ,etc. More details later.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh has attended the &lt;a href="http://www.cse.iitm.ac.in/~rupesh/events/nvidia-iitm-hackathon-2019/"&gt;NVIDIA-IITM Hackathon&lt;/a&gt; which happened at CSE department, IIT Madras between Jan 24+25 2019. 
+Bharath Kumar was mentoring us. We learned many stuffs including OpenACC, CUDA, Profiling CPU/GPU code ,etc. More details later.&lt;/p&gt;</content></entry><entry><title>ACM Member</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/acm-member.html" rel="alternate"></link><published>2018-12-30T12:15:00+05:30</published><updated>2018-12-30T12:15:00+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-12-30:/~mrprajesh/acm-member.html</id><summary type="html">&lt;p&gt;Rajesh's has joined as member of ACM. He have got an unique url and email at ACM.
+See this http://member.acm.org/~mrprajesh&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh's has joined as member of ACM. He have got an unique url and email at ACM.
+See this http://member.acm.org/~mrprajesh&lt;/p&gt;</content></entry><entry><title>HiPC 2018!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hipc-2018.html" rel="alternate"></link><published>2018-12-25T22:15:38+05:30</published><updated>2018-12-25T22:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-12-25:/~mrprajesh/hipc-2018.html</id><summary type="html">&lt;p&gt;Rajesh has attended the &lt;a href="https://hipc.org/"&gt;HiPC conference&lt;/a&gt; which happened at Bangalore, India. He has met many students from IIIT hyderabad, IIT Tirupati. It was very useful and motivating towards his research direction.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh has attended the &lt;a href="https://hipc.org/"&gt;HiPC conference&lt;/a&gt; which happened at Bangalore, India. He has met many students from IIIT hyderabad, IIT Tirupati. It was very useful and motivating towards his research direction.&lt;/p&gt;</content></entry><entry><title>Trained Project Staffs at HPC!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/trained-project-staffs-at-hpc.html" rel="alternate"></link><published>2018-10-23T17:11:00+05:30</published><updated>2018-10-23T17:11:00+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-10-23:/~mrprajesh/trained-project-staffs-at-hpc.html</id><summary type="html">&lt;p&gt;Trained project staff of High Performance Computing Environment at our &lt;a href="https://cc.iitm.ac.in/"&gt;Computer Center&lt;/a&gt;
+on the basic Linux adminstration stuff. Slides &lt;a href="https://drive.google.com/drive/folders/1bmN-95EjRwI0qGVUhf8EOMcCtbB6tW6L"&gt;here&lt;/a&gt;. 
+Well, well..! I can teach too. Felt happy!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Trained project staff of High Performance Computing Environment at our &lt;a href="https://cc.iitm.ac.in/"&gt;Computer Center&lt;/a&gt;
+on the basic Linux adminstration stuff. Slides &lt;a href="https://drive.google.com/drive/folders/1bmN-95EjRwI0qGVUhf8EOMcCtbB6tW6L"&gt;here&lt;/a&gt;. 
+Well, well..! I can teach too. Felt happy!&lt;/p&gt;</content></entry><entry><title>Rajesh receives STAR TA award!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/rajesh-receives-star-ta-award.html" rel="alternate"></link><published>2018-05-03T15:15:38+05:30</published><updated>2018-05-03T15:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-05-03:/~mrprajesh/rajesh-receives-star-ta-award.html</id><summary type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
+&lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
+&lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2&gt;First Lab&lt;/h2&gt;
+&lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
+&lt;p&gt;Instructor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We should know the strength of the class and give them how the lab is going be conducted.&lt;/li&gt;
+&lt;li&gt;System logins ready&lt;/li&gt;
+&lt;li&gt;Create a sheet that had list of assignments and list of TA per assignments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TAs …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;First Lab&lt;/h2&gt;
+&lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
+&lt;p&gt;Instructor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We should know the strength of the class and give them how the lab is going be conducted.&lt;/li&gt;
+&lt;li&gt;System logins ready&lt;/li&gt;
+&lt;li&gt;Create a sheet that had list of assignments and list of TA per assignments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TAs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a sample simple hacker rank contest problem.&lt;/li&gt;
+&lt;li&gt;Create the PDF &lt;/li&gt;
+&lt;li&gt;Create the moodle submission links, etc&lt;/li&gt;
+&lt;li&gt;They will get used to hackerrank, moodle, etc;&lt;/li&gt;
+&lt;li&gt;Let them aware of the Design Submission and hackerrank deadlines;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Lab TA&lt;/h2&gt;
+&lt;h3&gt;Ack&lt;/h3&gt;
+&lt;p&gt;Handling lab course was a challenge. Hackerrank Contest + Moodle. 
+Learnt a lot as a Teaching Assistant for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;CS2810&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>ACM Lecture Series</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/acm-lecture-series.html" rel="alternate"></link><published>2017-12-19T15:15:38+05:30</published><updated>2017-12-19T15:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2017-12-19:/~mrprajesh/acm-lecture-series.html</id><summary type="html">&lt;p&gt;As part of the "50 Years of Turing Award" talk series, the eighth talk has been scheduled at IIT Madras. The details are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Topic     :  Contributions ofJudea Pearl(Turing Award Recipient of 2011 for his invention of Bayesian Networks)&lt;/li&gt;
+&lt;li&gt;Speaker:  Prof. Deepak Khemani  (Dept. of CSE, IIT Madras)              &lt;/li&gt;
+&lt;li&gt;Date …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;As part of the "50 Years of Turing Award" talk series, the eighth talk has been scheduled at IIT Madras. The details are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Topic     :  Contributions ofJudea Pearl(Turing Award Recipient of 2011 for his invention of Bayesian Networks)&lt;/li&gt;
+&lt;li&gt;Speaker:  Prof. Deepak Khemani  (Dept. of CSE, IIT Madras)              &lt;/li&gt;
+&lt;li&gt;Date      :  19th December 5:00 PM&lt;/li&gt;
+&lt;li&gt;Venue    :  BSB 361, Turing Hall, Dept. of CSE, IIT Madras&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>Hello Pelican!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hello-pelican.html" rel="alternate"></link><published>2017-12-19T15:15:38+05:30</published><updated>2017-12-19T15:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2017-12-19:/~mrprajesh/hello-pelican.html</id><summary type="html">&lt;p&gt;Hello There! I made this website using &lt;a href="http://docs.getpelican.com"&gt;pelican&lt;/a&gt;. 
+The coolest thing about pelican is you do not have to know html to create webpage.
+I simply create a text file(markdown files) and it generates the HTML files for your.
+Of course you need know the markdown syntax.
+Moreover, I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello There! I made this website using &lt;a href="http://docs.getpelican.com"&gt;pelican&lt;/a&gt;. 
+The coolest thing about pelican is you do not have to know html to create webpage.
+I simply create a text file(markdown files) and it generates the HTML files for your.
+Of course you need know the markdown syntax.
+Moreover, I have enabled the render math add on. 
+Any &lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt; math symbols are rendered automatically.&lt;/p&gt;
+&lt;p&gt;Installing and setting up pelican takes only few minutes (or few commands).&lt;/p&gt;
+&lt;h3&gt;Render Math - Pelican plugins&lt;/h3&gt;
+&lt;p&gt;Lets try some render math. &lt;span class="math"&gt;\(A_{m \times n} B_{n \times m} = C_{m \times m}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content></entry></feed>
