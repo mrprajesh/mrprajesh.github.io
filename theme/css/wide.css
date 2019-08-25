@@ -1,4 +1,4 @@
-@import url("main.css");
+	@import url("main.css");
 
 body {
     font:1.3em/1.3 "Hoefler Text","Georgia",Georgia,serif,sans-serif;
@@ -40,4 +40,27 @@ body {
 #extras {
     padding-top: 0px;
     padding-bottom: 0px;
+}
+
+#logo__cursor {
+    display: inline-block;
+    width: 10px;
+    height: 1rem;
+    background: #fe5186;
+    margin-left: 5px;
+    border-radius: 1px;
+    animation: cursor 1s infinite;
+}
+#logo__mark {
+    margin-right: 5px;
+}
+#logo__text {
+    font-size: 1.125rem;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
 }
