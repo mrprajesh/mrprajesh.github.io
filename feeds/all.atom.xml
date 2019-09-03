@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-03T20:39:57+05:30</updated><subtitle></subtitle><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-03T21:48:34+05:30</updated><subtitle></subtitle><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Mirroring my &lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/"&gt;cse site&lt;/a&gt; on Github pages as &lt;a href="http://mrprajesh.github.io"&gt;mrprajesh.github.io&lt;/a&gt; as well as &lt;a href="http://mrprajesh.co.in"&gt;mrprajesh.co.in&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My workflow to publish on domain took lesser time. Now, I can update the site quickly.&lt;/p&gt;
 &lt;ul&gt;
@@ -33,24 +33,27 @@ rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;pwd&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;okay, more later. Tata.&lt;/p&gt;</content></entry><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-03-09T20:33:31+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;p&gt;okay, more later. Tata.&lt;/p&gt;</content></entry><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-09-03T21:48:34+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
 during my stay at IIT Madras.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Shell scripting&lt;/li&gt;
-&lt;li&gt;Makefile …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;Shell scripting …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
 during my stay at IIT Madras.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Linux&lt;/li&gt;
 &lt;li&gt;Shell scripting&lt;/li&gt;
+&lt;li&gt;awk/sed&lt;/li&gt;
 &lt;li&gt;Makefile&lt;/li&gt;
 &lt;li&gt;Git &lt;/li&gt;
 &lt;li&gt;Markdown&lt;/li&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Geany IDE&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gist.github.com/mrprajesh/352cbe661ee27a6b4627ae72d89479e6"&gt;nvprof&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html"&gt;Handling a Lab course&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GrenMarl&lt;/li&gt;
