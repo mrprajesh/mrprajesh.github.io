@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - Learning Curve</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/learning-curve.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-08-19T14:37:01+05:30</updated><subtitle></subtitle><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-08-19T14:37:01+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - Learning Curve</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/learning-curve.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-08-14T17:00:00+05:30</updated><subtitle></subtitle><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-03-09T20:33:31+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
 during my stay at IIT Madras.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Git &lt;/li&gt;
-&lt;li&gt;Markdown&lt;/li&gt;
-&lt;li&gt;&lt;span class="math"&gt;\(\LaTeX …&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;li&gt;Shell scripting&lt;/li&gt;
+&lt;li&gt;Makefile …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
 during my stay at IIT Madras.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Shell scripting&lt;/li&gt;
+&lt;li&gt;Makefile&lt;/li&gt;
 &lt;li&gt;Git &lt;/li&gt;
 &lt;li&gt;Markdown&lt;/li&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gist.github.com/mrprajesh/352cbe661ee27a6b4627ae72d89479e6"&gt;nvprof&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html"&gt;Handling a Lab course&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GrenMarl&lt;/li&gt;
+&lt;li&gt;Pelican&lt;/li&gt;
 &lt;li&gt;...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;// Todo: will point more links as I update!&lt;/p&gt;
@@ -76,7 +78,7 @@ during my stay at IIT Madras.  &lt;/p&gt;
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2&gt;First Lab&lt;/h2&gt;
+&lt;/script&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2 id="first-lab"&gt;&lt;a class="toclink" href="#first-lab"&gt;First Lab&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
 &lt;p&gt;Instructor:&lt;/p&gt;
 &lt;ul&gt;
@@ -84,7 +86,7 @@ during my stay at IIT Madras.  &lt;/p&gt;
 &lt;li&gt;System logins ready&lt;/li&gt;
 &lt;li&gt;Create a sheet that had list of assignments and list of TA per assignments.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;TAs …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;First Lab&lt;/h2&gt;
+&lt;p&gt;TAs …&lt;/p&gt;</summary><content type="html">&lt;h2 id="first-lab"&gt;&lt;a class="toclink" href="#first-lab"&gt;First Lab&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
 &lt;p&gt;Instructor:&lt;/p&gt;
 &lt;ul&gt;
@@ -100,7 +102,7 @@ during my stay at IIT Madras.  &lt;/p&gt;
 &lt;li&gt;They will get used to hackerrank, moodle, etc;&lt;/li&gt;
 &lt;li&gt;Let them aware of the Design Submission and hackerrank deadlines;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Lab TA&lt;/h2&gt;
-&lt;h3&gt;Ack&lt;/h3&gt;
+&lt;h2 id="lab-ta"&gt;&lt;a class="toclink" href="#lab-ta"&gt;Lab TA&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="ack"&gt;&lt;a class="toclink" href="#ack"&gt;Ack&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Handling lab course was a challenge. Hackerrank Contest + Moodle. 
 Learnt a lot as a Teaching Assistant for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;CS2810&lt;/a&gt;&lt;/p&gt;</content></entry></feed>

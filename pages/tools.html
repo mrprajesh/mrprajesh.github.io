@@ -17,7 +17,9 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
 		
+		
 		<script>
+			
 		function getLastModified() {
 			var x = new Date(document.lastModified);
 			document.getElementById("LDate").innerHTML = 'Last Modified on : '+x;
@@ -47,25 +49,25 @@
         
 <section id="content" class="body">    
     <h1 class="entry-title">Tools</h1>
-    <h1>Graph Projects [outdated!]</h1>
+    <h1 id="graph-projects-outdated"><a class="toclink" href="#graph-projects-outdated">Graph Projects [outdated!]</a></h1>
 <p>Dynamic Graph - A small step towards visualization
     * Click to <a href="http://www.cse.iitm.ac.in/~mrprajesh/oldWebsite/java/dynamic_graph.jnlp">launch</a>
-    * <em>Note:</em> Runs on Java v1.7 or greater; In Linux this plugin may be needed "sudo apt-get install icedtea-plugin". </p>
-<h1>Under graduate - Projects</h1>
-<h2>TCE SMS</h2>
+    * <em>Note:</em> Runs on Java v1.7 or greater; In Linux this plugin may be needed <code>sudo apt-get install icedtea-plugin</code>. </p>
+<h1 id="under-graduate-projects"><a class="toclink" href="#under-graduate-projects">Under graduate - Projects</a></h1>
+<h2 id="tce-sms"><a class="toclink" href="#tce-sms">TCE SMS</a></h2>
 <p>Publishing Exam results through SMS(Short Message Service) using a GSM 
 (Global System for Mobile Communications) Modem. 
 It is an auto responding application developed using Java communication API's developed by Sun Microsystems. 
 Using communication <a href="http://www.cse.iitm.ac.in/~mrprajesh/oldWebsite/comm3.0_u1_linux.zip">API</a> and invoking appropriate <a href="https://en.wikipedia.org/wiki/Hayes_command_set">AT</a> commands from/to GSM modem to read the received message 
 and retrieving the appropriate response from postgreSQL database (where exam results are stored) 
 then wrap it into a well defined format and replied as SMS to the student.</p>
-<h2>Manage Prisons</h2>
+<h2 id="manage-prisons"><a class="toclink" href="#manage-prisons">Manage Prisons</a></h2>
 <p>We Team Resilience (sooria, vivek, myself &amp; ap) won 2nd runners up - 
 The Great Mind Challenge(TGMC) 2008, a National level contest by IBM 
 and had made it to the TGMC Hall of fame. <a href="http://www-07.ibm.com/in/university/greatmind/tgmc_halloffame.html">more</a></p>
-<h2>E-COPs</h2>
+<h2 id="e-cops"><a class="toclink" href="#e-cops">E-COPs</a></h2>
 <p>Our team won 2nd runners up succesively - The Great Mind Challenge(TGMC) 2009, National level contest by IBM. //TODO add <a href="http://www-07.ibm.com/in/university/greatmind/tgmc_halloffame.html">more</a></p>
-<h2>Online Fleet Management system using Global Positioning System.</h2>
+<h2 id="online-fleet-management-system-using-global-positioning-system"><a class="toclink" href="#online-fleet-management-system-using-global-positioning-system">Online Fleet Management system using Global Positioning System.</a></h2>
 <p>It includes live tracking of vehicles fitted with GPS module(<a href="https://www.sparkfun.com/products/retired/280">GM862 Evaluation Kit</a> is used for demonstration) 
 through the web interface. It uses Google Maps API's. 
 The Telit GPS module inside the kit is configured using Python. 
@@ -99,14 +101,20 @@ It is generated using <a href="https://en.wikipedia.org/wiki/JasperReports">Jasp
                 <div class="widget social">
                         <h2>Social</h2>
                         <ul>
-                            <li><a href="../feeds/all.atom.xml" rel="alternate">atom feed</a></li>
-
+                        
                             <li><a href="https://github.com/mrprajesh"> GitHub</a></li>
                             <li><a href="https://twitter.com/mrprajesh"> Twitter</a></li>
                             <li><a href="https://facebook.com/mrprajesh"> Facebook</a></li>
                             <li><a href="https://www.linkedin.com/in/rajesh-pandian-muniasamy-524717a/"> Linkedin</a></li>
+                            <li><a href="../feeds/all.atom.xml" rel="alternate"> Atom feed</a></li>
+
                         </ul>
                 </div><!-- /.social -->
+                
+                <div>
+					<h2> Email Notification </h2>
+					<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mrprajesh', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="mrprajesh" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe via Email" /> </form>
+                </div>
         </aside><!-- /#sidebar -->
 		
 		

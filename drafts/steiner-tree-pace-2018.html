@@ -17,7 +17,9 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
 		
+		
 		<script>
+			
 		function getLastModified() {
 			var x = new Date(document.lastModified);
 			document.getElementById("LDate").innerHTML = 'Last Modified on : '+x;
@@ -60,17 +62,17 @@
         </address>
 <p>In <a href="../category/learning-curve.html">Learning Curve</a>. </p>
 </p></footer><!-- /.post-info --><!-- /.post-info -->
-        <h2>Problem Description</h2>
+        <h2 id="problem-description"><a class="toclink" href="#problem-description">Problem Description</a></h2>
 <ul>
 <li>Input : Graph <span class="math">\(G(V,E)\)</span>, <span class="math">\(w: E \rightarrow \mathbb{N}\)</span> and terminals <span class="math">\(L \subseteq V\)</span></li>
 <li>Output: Find the minimum weighted <span class="math">\(T(V',E')\)</span> that contains all the terminals.</li>
 </ul>
-<h3>Initial  Observations:</h3>
+<h3 id="initial-observations"><a class="toclink" href="#initial-observations">Initial  Observations:</a></h3>
 <ul>
 <li>If <span class="math">\(T = V\)</span> then the problems reduces to Minimum Spannning Tree(MST) Problem.</li>
 <li>If <span class="math">\(T = 2\)</span> then the problems reduces to Shortest Path(SP) between two terminal vertices.</li>
 </ul>
-<h2>Implementations</h2>
+<h2 id="implementations"><a class="toclink" href="#implementations">Implementations</a></h2>
 <p>There are several exact as well as approximation algorithms for Minimal Steiner tree.
 Lets start with the approximation algorithm. The below are few of our implementations:
 <em> MST/Greedy Algorithm - 2 approx
@@ -78,14 +80,14 @@ Lets start with the approximation algorithm. The below are few of our implementa
 <em> Snake tongue Algorithm
 </em> Rand Sticky tongue
 * Rand Snake tongue</p>
-<h3>Code</h3>
+<h3 id="code"><a class="toclink" href="#code">Code</a></h3>
 <ul>
 <li>Code in C++ - Rajz</li>
 <li>Code in Python - Vj </li>
 </ul>
-<h2>Results</h2>
+<h2 id="results"><a class="toclink" href="#results">Results</a></h2>
 <p>We are ranked  <strong>16th overall</strong> (scoring 94.57) in PACE 2018 Track C!</p>
-<h2>Other links</h2>
+<h2 id="other-links"><a class="toclink" href="#other-links">Other links</a></h2>
 <ul>
 <li><a href="https://pacechallenge.wordpress.com/pace-2018">PACE 2018</a> </li>
 <li>Optil.io - <a href="https://pacechallenge.wordpress.com/2017/12/12/optil-io/">All tracks</a></li>
@@ -175,14 +177,20 @@ Lets start with the approximation algorithm. The below are few of our implementa
                 <div class="widget social">
                         <h2>Social</h2>
                         <ul>
-                            <li><a href="../feeds/all.atom.xml" rel="alternate">atom feed</a></li>
-
+                        
                             <li><a href="https://github.com/mrprajesh"> GitHub</a></li>
                             <li><a href="https://twitter.com/mrprajesh"> Twitter</a></li>
                             <li><a href="https://facebook.com/mrprajesh"> Facebook</a></li>
                             <li><a href="https://www.linkedin.com/in/rajesh-pandian-muniasamy-524717a/"> Linkedin</a></li>
+                            <li><a href="../feeds/all.atom.xml" rel="alternate"> Atom feed</a></li>
+
                         </ul>
                 </div><!-- /.social -->
+                
+                <div>
+					<h2> Email Notification </h2>
+					<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mrprajesh', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="mrprajesh" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe via Email" /> </form>
+                </div>
         </aside><!-- /#sidebar -->
 		
 		

@@ -17,7 +17,9 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
 		
+		
 		<script>
+			
 		function getLastModified() {
 			var x = new Date(document.lastModified);
 			document.getElementById("LDate").innerHTML = 'Last Modified on : '+x;
@@ -46,14 +48,68 @@
 
      <section id="content" class="body">
         <aside id="featured"><article>
-                <h1 class="entry-title"><a href="../my-learnings.html">My Learnings</a></h1>
+                <h1 class="entry-title"><a href="../hosted-on-github-my-domain.html">Hosted on Github + my domain</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-08-27T17:36:00+05:30">
+               Created : 27-Aug-2019
+        </abbr>
+        <br>
+        <abbr class="modified" title="2019-09-03T20:39:57+05:30">
+               Updated : 03-Sep-2019
+        </abbr>
+		
+        <address class="vcard author">
+                By <a class="url fn" href="../author/rajesh-pandian-m.html">Rajesh Pandian M</a>
+        </address>
+<p>In <a href="../category/news.html">News</a>. </p>
+</p></footer><!-- /.post-info --><!-- /.post-info -->
+                <h1 id="site-up"><a class="toclink" href="#site-up">Site up</a></h1>
+<p>Mirroring my <a href="https://www.cse.iitm.ac.in/~mrprajesh/">cse site</a> on Github pages as <a href="http://mrprajesh.github.io">mrprajesh.github.io</a> as well as <a href="http://mrprajesh.co.in">mrprajesh.co.in</a></p>
+<p>My workflow to publish on domain took lesser time. Now, I can update the site quickly.</p>
+<ul>
+<li>Thanks to <a href="https://blog.getpelican.com/">Pelican</a> - static site generator.</li>
+<li>Github pages - is my web-hosting space. It is free.</li>
+<li>For my domain, I had purchased two year co.in domain from Godaddy (800 INR) -- was un-parked 15 months. </li>
+<li>Added custom domain to Gh-pages and enabled <code>https</code> access for free. Thanks Github.</li>
+<li>Made some tinkering to theme.</li>
+</ul>
+<p>This is <code>C/C++</code> language. Do you see the highlighting of <code>code blocks</code>. 
+It is due to <a href="https://python-markdown.github.io/extensions/code_hilite/">this</a>.</p>
+<div class="highlight"><pre><span></span><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
+    <span class="n">print</span><span class="p">(</span><span class="s">&quot;Hello There!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>This is <code>bash</code> or <code>shell</code></p>
+<div class="highlight"><pre><span></span>rajz@LordOfWarriors:~$ <span class="nb">cd</span> ../tamil/
+rajz@LordOfWarriors:~$ ls
+Desktop  Documents  Downloads  Dropbox  Music  Pictures  Public  Templates  Videos
+rajz@LordOfWarriors:~$ <span class="nb">pwd</span>
+/home/tamil
+</pre></div>
+
+
+<p>okay, more later. Tata.</p>
+        </article></aside><!-- /#featured -->
+                <h1>Other articles</h1>
+                <hr />
+                    <ol id="posts-list" class="hfeed">
+        <li><article class="hentry">
+                <header>
+                        <h1><a href="../my-learnings.html" rel="bookmark" title="Permalink to My Learnings">My Learnings</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2019-08-14T17:00:00+05:30">
                Created : 14-Aug-2019
         </abbr>
         <br>
-        <abbr class="modified" title="2019-08-19T14:37:01+05:30">
-               Updated : 19-Aug-2019
+        <abbr class="modified" title="2019-03-09T20:33:31+05:30">
+               Updated : 09-Mar-2019
         </abbr>
 		
         <address class="vcard author">
@@ -67,74 +123,11 @@ I am making a note of whatever I had(/have been) learnt(/learning)
 during my stay at IIT Madras.  </p>
 <p>The following are :</p>
 <ul>
-<li>Git </li>
-<li>Markdown</li>
-<li><span class="math">\(\LaTeX\)</span></li>
-<li><a href="https://gist.github.com/mrprajesh/352cbe661ee27a6b4627ae72d89479e6">nvprof</a></li>
-<li><a href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html">Handling a Lab course</a></li>
-<li>GrenMarl</li>
-<li>...</li>
-</ul>
-<p>// Todo: will point more links as I update!</p>
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width < 768) ? "left" : align;
-        indent = (screen.width < 768) ? "0em" : indent;
-        linebreak = (screen.width < 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-</script>
-        </article></aside><!-- /#featured -->
-                <h1>Other articles</h1>
-                <hr />
-                    <ol id="posts-list" class="hfeed">
+<li>Shell scripting</li>
+<li>Makefile …</li></ul>
+                <a class="readmore" href="../my-learnings.html">read more</a>
+                </div><!-- /.entry-content -->
+        </article></li>
         <li><article class="hentry">
                 <header>
                         <h1><a href="../first-submission-to-a-conf.html" rel="bookmark" title="Permalink to First Submission to a Conf!">First Submission to a Conf!</a></h1>
@@ -300,7 +293,7 @@ Well, well..! I can teach too. Felt happy!</p>
         </address>
 <p>In <a href="../category/learning-curve.html">Learning Curve</a>. </p>
 </p></footer><!-- /.post-info --><!-- /.post-info -->
-                <h2>First Lab</h2>
+                <h2 id="first-lab"><a class="toclink" href="#first-lab">First Lab</a></h2>
 <p>These are things we must be doing from different stake holders.</p>
 <p>Instructor:</p>
 <ul>
@@ -386,14 +379,20 @@ Moreover, I …</p>
                 <div class="widget social">
                         <h2>Social</h2>
                         <ul>
-                            <li><a href="../feeds/all.atom.xml" rel="alternate">atom feed</a></li>
-
+                        
                             <li><a href="https://github.com/mrprajesh"> GitHub</a></li>
                             <li><a href="https://twitter.com/mrprajesh"> Twitter</a></li>
                             <li><a href="https://facebook.com/mrprajesh"> Facebook</a></li>
                             <li><a href="https://www.linkedin.com/in/rajesh-pandian-muniasamy-524717a/"> Linkedin</a></li>
+                            <li><a href="../feeds/all.atom.xml" rel="alternate"> Atom feed</a></li>
+
                         </ul>
                 </div><!-- /.social -->
+                
+                <div>
+					<h2> Email Notification </h2>
+					<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mrprajesh', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="mrprajesh" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe via Email" /> </form>
+                </div>
         </aside><!-- /#sidebar -->
 		
 		

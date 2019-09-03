@@ -1,24 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-08-19T14:37:01+05:30</updated><subtitle></subtitle><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-08-19T14:37:01+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-03T20:39:57+05:30</updated><subtitle></subtitle><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Mirroring my &lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/"&gt;cse site&lt;/a&gt; on Github pages as &lt;a href="http://mrprajesh.github.io"&gt;mrprajesh.github.io&lt;/a&gt; as well as &lt;a href="http://mrprajesh.co.in"&gt;mrprajesh.co.in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My workflow to publish on domain took lesser time. Now, I can update the site quickly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thanks to &lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; - static site generator.&lt;/li&gt;
+&lt;li&gt;Github pages - is my web-hosting space. It is free …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Mirroring my &lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/"&gt;cse site&lt;/a&gt; on Github pages as &lt;a href="http://mrprajesh.github.io"&gt;mrprajesh.github.io&lt;/a&gt; as well as &lt;a href="http://mrprajesh.co.in"&gt;mrprajesh.co.in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My workflow to publish on domain took lesser time. Now, I can update the site quickly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thanks to &lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; - static site generator.&lt;/li&gt;
+&lt;li&gt;Github pages - is my web-hosting space. It is free.&lt;/li&gt;
+&lt;li&gt;For my domain, I had purchased two year co.in domain from Godaddy (800 INR) -- was un-parked 15 months. &lt;/li&gt;
+&lt;li&gt;Added custom domain to Gh-pages and enabled &lt;code&gt;https&lt;/code&gt; access for free. Thanks Github.&lt;/li&gt;
+&lt;li&gt;Made some tinkering to theme.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is &lt;code&gt;C/C++&lt;/code&gt; language. Do you see the highlighting of &lt;code&gt;code blocks&lt;/code&gt;. 
+It is due to &lt;a href="https://python-markdown.github.io/extensions/code_hilite/"&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
+    &lt;span class="n"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello There!&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This is &lt;code&gt;bash&lt;/code&gt; or &lt;code&gt;shell&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;cd&lt;/span&gt; ../tamil/
+rajz@LordOfWarriors:~$ ls
+Desktop  Documents  Downloads  Dropbox  Music  Pictures  Public  Templates  Videos
+rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;pwd&lt;/span&gt;
+/home/tamil
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;okay, more later. Tata.&lt;/p&gt;</content></entry><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-03-09T20:33:31+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
 during my stay at IIT Madras.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Git &lt;/li&gt;
-&lt;li&gt;Markdown&lt;/li&gt;
-&lt;li&gt;&lt;span class="math"&gt;\(\LaTeX …&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;li&gt;Shell scripting&lt;/li&gt;
+&lt;li&gt;Makefile …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
 during my stay at IIT Madras.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Shell scripting&lt;/li&gt;
+&lt;li&gt;Makefile&lt;/li&gt;
 &lt;li&gt;Git &lt;/li&gt;
 &lt;li&gt;Markdown&lt;/li&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gist.github.com/mrprajesh/352cbe661ee27a6b4627ae72d89479e6"&gt;nvprof&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html"&gt;Handling a Lab course&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;GrenMarl&lt;/li&gt;
+&lt;li&gt;Pelican&lt;/li&gt;
 &lt;li&gt;...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;// Todo: will point more links as I update!&lt;/p&gt;
@@ -86,7 +122,7 @@ Well, well..! I can teach too. Felt happy!&lt;/p&gt;</summary><content type="htm
 on the basic Linux adminstration stuff. Slides &lt;a href="https://drive.google.com/drive/folders/1bmN-95EjRwI0qGVUhf8EOMcCtbB6tW6L"&gt;here&lt;/a&gt;. 
 Well, well..! I can teach too. Felt happy!&lt;/p&gt;</content></entry><entry><title>Rajesh receives STAR TA award!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/rajesh-receives-star-ta-award.html" rel="alternate"></link><published>2018-05-03T15:15:38+05:30</published><updated>2018-05-03T15:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-05-03:/~mrprajesh/rajesh-receives-star-ta-award.html</id><summary type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
 &lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
-&lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2&gt;First Lab&lt;/h2&gt;
+&lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2 id="first-lab"&gt;&lt;a class="toclink" href="#first-lab"&gt;First Lab&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
 &lt;p&gt;Instructor:&lt;/p&gt;
 &lt;ul&gt;
@@ -94,7 +130,7 @@ Well, well..! I can teach too. Felt happy!&lt;/p&gt;</content></entry><entry><ti
 &lt;li&gt;System logins ready&lt;/li&gt;
 &lt;li&gt;Create a sheet that had list of assignments and list of TA per assignments.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;TAs …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;First Lab&lt;/h2&gt;
+&lt;p&gt;TAs …&lt;/p&gt;</summary><content type="html">&lt;h2 id="first-lab"&gt;&lt;a class="toclink" href="#first-lab"&gt;First Lab&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
 &lt;p&gt;Instructor:&lt;/p&gt;
 &lt;ul&gt;
@@ -110,8 +146,8 @@ Well, well..! I can teach too. Felt happy!&lt;/p&gt;</content></entry><entry><ti
 &lt;li&gt;They will get used to hackerrank, moodle, etc;&lt;/li&gt;
 &lt;li&gt;Let them aware of the Design Submission and hackerrank deadlines;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Lab TA&lt;/h2&gt;
-&lt;h3&gt;Ack&lt;/h3&gt;
+&lt;h2 id="lab-ta"&gt;&lt;a class="toclink" href="#lab-ta"&gt;Lab TA&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="ack"&gt;&lt;a class="toclink" href="#ack"&gt;Ack&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Handling lab course was a challenge. Hackerrank Contest + Moodle. 
 Learnt a lot as a Teaching Assistant for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;CS2810&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>ACM Lecture Series</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/acm-lecture-series.html" rel="alternate"></link><published>2017-12-19T15:15:38+05:30</published><updated>2017-12-19T15:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2017-12-19:/~mrprajesh/acm-lecture-series.html</id><summary type="html">&lt;p&gt;As part of the "50 Years of Turing Award" talk series, the eighth talk has been scheduled at IIT Madras. The details are as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -134,7 +170,7 @@ Of course you need know the markdown syntax.
 Moreover, I have enabled the render math add on. 
 Any &lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt; math symbols are rendered automatically.&lt;/p&gt;
 &lt;p&gt;Installing and setting up pelican takes only few minutes (or few commands).&lt;/p&gt;
-&lt;h3&gt;Render Math - Pelican plugins&lt;/h3&gt;
+&lt;h3 id="render-math-pelican-plugins"&gt;&lt;a class="toclink" href="#render-math-pelican-plugins"&gt;Render Math - Pelican plugins&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Lets try some render math. &lt;span class="math"&gt;\(A_{m \times n} B_{n \times m} = C_{m \times m}\)&lt;/span&gt;.&lt;/p&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",

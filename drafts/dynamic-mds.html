@@ -17,7 +17,9 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
 		
+		
 		<script>
+			
 		function getLastModified() {
 			var x = new Date(document.lastModified);
 			document.getElementById("LDate").innerHTML = 'Last Modified on : '+x;
@@ -64,19 +66,19 @@
         </address>
 <p>In <a href="../category/learning-curve.html">Learning Curve</a>. </p>
 <p>tags: <a href="../tag/dynamic-graphs.html">Dynamic graphs</a><a href="../tag/algorithm.html">Algorithm</a></p></p></footer><!-- /.post-info --><!-- /.post-info -->
-        <h2>Problem Description</h2>
+        <h2 id="problem-description"><a class="toclink" href="#problem-description">Problem Description</a></h2>
 <ul>
 <li>Input: Tree <span class="math">\(T(V,E)\)</span> or forest <span class="math">\(F(V,E)\)</span></li>
 <li>Output: Minimum Dominating set(MDS) <span class="math">\(D \subseteq V\)</span></li>
 <li>Update: Add leaf node or remove a leaf node.</li>
 </ul>
-<h2>Abstract</h2>
+<h2 id="abstract"><a class="toclink" href="#abstract">Abstract</a></h2>
 <p>The Minimum Dominating Set(MDS) problem on a general graph is NP-Hard.
 However, MDS problem on an arbitrary graph is solvable in polynomial time(in fact linear time).
 In the case of dynamic graphs is there an efficient way to solve MDS during  a
 vertex/edge update. </p>
-<h2>Introduction</h2>
-<h2>Preliminaries and Notations</h2>
+<h2 id="introduction"><a class="toclink" href="#introduction">Introduction</a></h2>
+<h2 id="preliminaries-and-notations"><a class="toclink" href="#preliminaries-and-notations">Preliminaries and Notations</a></h2>
 <p>Objectives working on:</p>
 <ul>
 <li>Dynamic MDS on a tree/forest<ol>
@@ -87,13 +89,13 @@ Let <span class="math">\(T\)</span> represent a tree (and <span class="math">\(F
 </ol>
 </li>
 </ul>
-<h2>Algorithm and Data structure</h2>
+<h2 id="algorithm-and-data-structure"><a class="toclink" href="#algorithm-and-data-structure">Algorithm and Data structure</a></h2>
 <p>For each <span class="math">\(v \in V\)</span></p>
 <ul>
 <li><span class="math">\(v\)</span>.dominates = set of vertices that <span class="math">\(v\)</span> dominates.</li>
 <li><span class="math">\(v\)</span>.dominatedBy = set of vertices dominated by vertex <span class="math">\(v\)</span>.</li>
 </ul>
-<h3>Minimal Dominating Set on trees</h3>
+<h3 id="minimal-dominating-set-on-trees"><a class="toclink" href="#minimal-dominating-set-on-trees">Minimal Dominating Set on trees</a></h3>
 <p>A set <span class="math">\(D\)</span> is said to be minimal dominating set if not proper subset 
 of <span class="math">\(D\)</span> is a dominating set.</p>
 <p>InsertLeafOf<span class="math">\((u,v)\)</span> {</p>
@@ -117,7 +119,7 @@ of <span class="math">\(D\)</span> is a dominating set.</p>
 <p>Unlike maximum matching and maximal matching where the relationship is at at most 2, 
 the relationship between minimum dominating set and minimal dominating set can be 
 arbitrarily large. For example,Star graph has a Minimal DS <span class="math">\(D_l\)</span> where <span class="math">\(|D_l|= n-1\)</span> and minimum DS <span class="math">\(D\)</span> where <span class="math">\(|D|=1\)</span>.</p>
-<h3>Minimum Dominating Set</h3>
+<h3 id="minimum-dominating-set"><a class="toclink" href="#minimum-dominating-set">Minimum Dominating Set</a></h3>
 <p>status: hidden
 Let the forest be represented as <span class="math">\(F(V,E)\)</span> where <span class="math">\(V\)</span> and <span class="math">\(E\)</span> represents
 the vertex and edges set at the time instant during the update. 
@@ -132,8 +134,8 @@ Assuming the trees in the forest is rooted at some arbitrary vertex.</p>
 <p><strong>Invariant</strong>: There exist an MDS in <span class="math">\(T\)</span> with only the non-leaf nodes
 in the dominating set <span class="math">\(D\)</span>.</p>
 <p>This helps in achieving a faster update time.</p>
-<h2>Correctness and analysis</h2>
-<h2>Conclusion</h2>
+<h2 id="correctness-and-analysis"><a class="toclink" href="#correctness-and-analysis">Correctness and analysis</a></h2>
+<h2 id="conclusion"><a class="toclink" href="#conclusion">Conclusion</a></h2>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
@@ -217,14 +219,20 @@ in the dominating set <span class="math">\(D\)</span>.</p>
                 <div class="widget social">
                         <h2>Social</h2>
                         <ul>
-                            <li><a href="../feeds/all.atom.xml" rel="alternate">atom feed</a></li>
-
+                        
                             <li><a href="https://github.com/mrprajesh"> GitHub</a></li>
                             <li><a href="https://twitter.com/mrprajesh"> Twitter</a></li>
                             <li><a href="https://facebook.com/mrprajesh"> Facebook</a></li>
                             <li><a href="https://www.linkedin.com/in/rajesh-pandian-muniasamy-524717a/"> Linkedin</a></li>
+                            <li><a href="../feeds/all.atom.xml" rel="alternate"> Atom feed</a></li>
+
                         </ul>
                 </div><!-- /.social -->
+                
+                <div>
+					<h2> Email Notification </h2>
+					<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mrprajesh', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="mrprajesh" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe via Email" /> </form>
+                </div>
         </aside><!-- /#sidebar -->
 		
 		

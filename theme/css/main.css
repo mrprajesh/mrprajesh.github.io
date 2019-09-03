@@ -56,16 +56,37 @@ a:link, a:visited {
 	padding: 0 1px;
 	text-decoration: underline;
 }
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link {  /*added by rajesh*/
+	color: #000000;
+	padding: 0 1px;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #008DB8;
+	padding: 0 1px;
+	text-decoration: underline;
+}
+
 a:hover, a:active, a.active, .active>a {
+	background-color: #008DB8;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px #333;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {  /*added by rajesh*/
 	background-color: #008DB8;
 	color: white;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #333;
 }
 
+/*
 h1 a:hover {
     background-color: inherit
 }
+*/
 	
 /* Paragraphs */
 p {margin-bottom: 1.143em;}
@@ -189,7 +210,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	}
 	
 	#banner nav ul {list-style: none; margin: 0 auto;}
-	#banner nav li {float: left; display: inline; margin: 0;}
+	#banner nav li {float: left; display: inline; margin: 0; }
 	
 	#banner nav a:link, #banner nav a:visited {
 		color: #fff;
@@ -303,9 +324,10 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		.social a[href*='twitter.com']:before {content: url('../images/icons/twitter.png'); margin-right: 2px; vertical-align: -3px;}
 		.social a[href*='linkedin.com']:before {content: url('../images/icons/linkedin.png'); margin-right: 2px; vertical-align: -3px;}
         .social a[href*='gitorious.org']:before {content: url('../images/icons/gitorious.png'); margin-right: 2px; vertical-align: -3px;}
+         /*added by rajesh*/
         .social a[href*='github.com']:before {content: url('../images/icons/github.png'); margin-right: 2px; vertical-align: -3px;}
         .social a[href*='youtube.com']:before {content: url('../images/icons/youtube.png'); margin-right: 2px; vertical-align: -3px;}
-        .blogroll a[href*='youtube.com']:before {content: url('../images/icons/youtube.png'); margin-right: 2px; vertical-align: -3px;}
+        .blogroll a[href*='youtube.com']:before {content: url('../images/icons/youtube.png'); margin-right: 2px; vertical-align: -3px;} 
 
 /*
 	About
@@ -426,3 +448,42 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	
 	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 	#add-comment * {margin-bottom: .5em;}
+
+/* from https://mademistakes.com/notes/styling-language-specific-code-blocks/ 
+ * */
+
+$terminal-window-height: 30px;
+
+.language-terminal {
+  position: relative;
+  margin-bottom: 1.5em;
+  padding: calc(#{$terminal-window-height} + 1em) 1em 1em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
+  background-color: $base-color;
+
+  &::before {
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $terminal-window-height;
+    margin: 0;
+    padding: (0.5 * $terminal-window-height) 0;
+    background: mix($base-color, #fff, 25%);
+    color: mix($base-color, #fff, 50%);
+    font-size: (2 * $terminal-window-height);
+    line-height: 0;
+    text-indent: (0.5 * $terminal-window-height);
+  }
+
+  .highlight {
+    margin: 0;
+    padding: 0;
+    background-color: initial;
+    color: #fff;
+  }
+}
+

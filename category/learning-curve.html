@@ -17,7 +17,9 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="../css/ie6.css"/><![endif]-->
 		
+		
 		<script>
+			
 		function getLastModified() {
 			var x = new Date(document.lastModified);
 			document.getElementById("LDate").innerHTML = 'Last Modified on : '+x;
@@ -52,8 +54,8 @@
                Created : 14-Aug-2019
         </abbr>
         <br>
-        <abbr class="modified" title="2019-08-19T14:37:01+05:30">
-               Updated : 19-Aug-2019
+        <abbr class="modified" title="2019-03-09T20:33:31+05:30">
+               Updated : 09-Mar-2019
         </abbr>
 		
         <address class="vcard author">
@@ -67,12 +69,15 @@ I am making a note of whatever I had(/have been) learnt(/learning)
 during my stay at IIT Madras.  </p>
 <p>The following are :</p>
 <ul>
+<li>Shell scripting</li>
+<li>Makefile</li>
 <li>Git </li>
 <li>Markdown</li>
 <li><span class="math">\(\LaTeX\)</span></li>
 <li><a href="https://gist.github.com/mrprajesh/352cbe661ee27a6b4627ae72d89479e6">nvprof</a></li>
-<li><a href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html">Handling a Lab course</a></li>
+<li><a href="../handling-lab-course.html">Handling a Lab course</a></li>
 <li>GrenMarl</li>
+<li>Pelican</li>
 <li>...</li>
 </ul>
 <p>// Todo: will point more links as I update!</p>
@@ -155,7 +160,7 @@ during my stay at IIT Madras.  </p>
         </address>
 <p>In <a href="../category/learning-curve.html">Learning Curve</a>. </p>
 </p></footer><!-- /.post-info --><!-- /.post-info -->
-                <h2>First Lab</h2>
+                <h2 id="first-lab"><a class="toclink" href="#first-lab">First Lab</a></h2>
 <p>These are things we must be doing from different stake holders.</p>
 <p>Instructor:</p>
 <ul>
@@ -193,14 +198,20 @@ during my stay at IIT Madras.  </p>
                 <div class="widget social">
                         <h2>Social</h2>
                         <ul>
-                            <li><a href="../feeds/all.atom.xml" rel="alternate">atom feed</a></li>
-
+                        
                             <li><a href="https://github.com/mrprajesh"> GitHub</a></li>
                             <li><a href="https://twitter.com/mrprajesh"> Twitter</a></li>
                             <li><a href="https://facebook.com/mrprajesh"> Facebook</a></li>
                             <li><a href="https://www.linkedin.com/in/rajesh-pandian-muniasamy-524717a/"> Linkedin</a></li>
+                            <li><a href="../feeds/all.atom.xml" rel="alternate"> Atom feed</a></li>
+
                         </ul>
                 </div><!-- /.social -->
+                
+                <div>
+					<h2> Email Notification </h2>
+					<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mrprajesh', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p><input type="text" style="width:140px" name="email"/></p><input type="hidden" value="mrprajesh" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe via Email" /> </form>
+                </div>
         </aside><!-- /#sidebar -->
 		
 		
