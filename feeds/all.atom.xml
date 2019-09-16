@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-16T12:20:58+05:30</updated><subtitle></subtitle><entry><title>Linux</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/linux.html" rel="alternate"></link><published>2019-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-09-16:/~mrprajesh/linux.html</id><summary type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
-many distros out there. Whatever here works on debian based system like
-Ubuntu or Linux Mint, and may be with slight tinkering for other distros.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
-many distros out there. Whatever here works on debian based system like
-Ubuntu or Linux Mint, and may be with slight tinkering for other distros.&lt;/p&gt;</content></entry><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-16T13:32:02+05:30</updated><subtitle></subtitle><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Mirroring my &lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/"&gt;cse site&lt;/a&gt; on Github pages as &lt;a href="http://mrprajesh.github.io"&gt;mrprajesh.github.io&lt;/a&gt; as well as &lt;a href="http://mrprajesh.co.in"&gt;mrprajesh.co.in&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My workflow to publish on domain took lesser time. Now, I can update the site quickly.&lt;/p&gt;
 &lt;ul&gt;
@@ -40,20 +36,20 @@ rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;pwd&lt;/span&gt;
 &lt;p&gt;okay, more later. Tata.&lt;/p&gt;</content></entry><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-09-03T21:48:34+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
-during my stay at IIT Madras.  &lt;/p&gt;
-&lt;p&gt;The following are :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Linux ({filename}/learn …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+during my stay at IIT Madras.  Everyone you see in this world …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
-during my stay at IIT Madras.  &lt;/p&gt;
+during my stay at IIT Madras.  Everyone you see in this world are here 
+to teach you something new provided you are ready to listen and learn. 
+Even a 2 year old kid can teach you provided you are patient and will to
+listen.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Linux ({filename}/learn/linux.md)&lt;/li&gt;
-&lt;li&gt;Shell scripting&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/linux.html"&gt;Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/shell-scripting.html"&gt;Shell scripting&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;awk/sed&lt;/li&gt;
 &lt;li&gt;Makefile&lt;/li&gt;
-&lt;li&gt;Git &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/git-and-github.html"&gt;Git&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;Markdown&lt;/li&gt;
 &lt;li&gt;&lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;Geany IDE&lt;/li&gt;
@@ -126,7 +122,69 @@ See this http://member.acm.org/~mrprajesh&lt;/p&gt;</content></entry><entry><tit
 on the basic Linux adminstration stuff. Slides &lt;a href="https://drive.google.com/drive/folders/1bmN-95EjRwI0qGVUhf8EOMcCtbB6tW6L"&gt;here&lt;/a&gt;. 
 Well, well..! I can teach too. Felt happy!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Trained project staff of High Performance Computing Environment at our &lt;a href="https://cc.iitm.ac.in/"&gt;Computer Center&lt;/a&gt;
 on the basic Linux adminstration stuff. Slides &lt;a href="https://drive.google.com/drive/folders/1bmN-95EjRwI0qGVUhf8EOMcCtbB6tW6L"&gt;here&lt;/a&gt;. 
-Well, well..! I can teach too. Felt happy!&lt;/p&gt;</content></entry><entry><title>Rajesh receives STAR TA award!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/rajesh-receives-star-ta-award.html" rel="alternate"></link><published>2018-05-03T15:15:38+05:30</published><updated>2018-05-03T15:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-05-03:/~mrprajesh/rajesh-receives-star-ta-award.html</id><summary type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
+Well, well..! I can teach too. Felt happy!&lt;/p&gt;</content></entry><entry><title>Git and Github</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/git-and-github.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T13:32:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/git-and-github.html</id><summary type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
+manage large open/close software projects. &lt;/p&gt;
+&lt;h1 id="to-install"&gt;&lt;a class="toclink" href="#to-install"&gt;To install&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install git
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2 id="git-commands-to-know"&gt;&lt;a class="toclink" href="#git-commands-to-know"&gt;Git - commands to know&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone &amp;lt;URL&amp;gt;&lt;/code&gt; - Clone the &lt;strong&gt;repo&lt;/strong&gt;sitory &lt;code&gt;&amp;lt;URL&amp;gt;&lt;/code&gt; may be github url.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add &amp;lt;File/FOLDER&amp;gt;&lt;/code&gt; - Monitors the &lt;code&gt;file/FOLDER&lt;/code&gt; for changes …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
+manage large open/close software projects. &lt;/p&gt;
+&lt;h1 id="to-install"&gt;&lt;a class="toclink" href="#to-install"&gt;To install&lt;/a&gt;&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install git
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2 id="git-commands-to-know"&gt;&lt;a class="toclink" href="#git-commands-to-know"&gt;Git - commands to know&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone &amp;lt;URL&amp;gt;&lt;/code&gt; - Clone the &lt;strong&gt;repo&lt;/strong&gt;sitory &lt;code&gt;&amp;lt;URL&amp;gt;&lt;/code&gt; may be github url.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git add &amp;lt;File/FOLDER&amp;gt;&lt;/code&gt; - Monitors the &lt;code&gt;file/FOLDER&lt;/code&gt; for changes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m "&amp;lt;MESSAGE&amp;gt;"&lt;/code&gt; - give a meaningful name to your commit.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git commit -m "&amp;lt;MESSAGE&amp;gt;" -a&lt;/code&gt; - commits all tracked changes.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push origin master&lt;/code&gt; - Push the last commit to the remote server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These are handy quick cmds.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git log&lt;/code&gt; - Check the commits history&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git status&lt;/code&gt; - Files monitored by git&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git pull&lt;/code&gt; - Pull and updates local repo from server&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="one-time-setup"&gt;&lt;a class="toclink" href="#one-time-setup"&gt;One time setup&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;As all the commits are logged with the username and email. It is a must
+to setup this. used &lt;code&gt;global&lt;/code&gt; as I wanted the same setup for all my repos.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git config --global user.name &amp;quot;YOUR FULL NAME&amp;quot;
+git config --global user.email &amp;quot;YOUR-EMAIl-ID@gmail.com&amp;quot;
+&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Linux</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/linux.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/linux.html</id><summary type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
+many distros out there. Whatever here works on debian based system like
+Ubuntu or Linux Mint, and might need a slight tinkering for other 
+distros.&lt;/p&gt;
+&lt;h4 id="command-ls"&gt;&lt;a class="toclink" href="#command-ls"&gt;command - ls&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls -l&lt;/code&gt; - long listing the file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls -lrt&lt;/code&gt; - list …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
+many distros out there. Whatever here works on debian based system like
+Ubuntu or Linux Mint, and might need a slight tinkering for other 
+distros.&lt;/p&gt;
+&lt;h4 id="command-ls"&gt;&lt;a class="toclink" href="#command-ls"&gt;command - ls&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;ls -l&lt;/code&gt; - long listing the file&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls -lrt&lt;/code&gt; - list file based on the modified date. recent at the last.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="installing-using-deb-file"&gt;&lt;a class="toclink" href="#installing-using-deb-file"&gt;Installing using deb file&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Most of the modern distros support double clicking deb file to install.
+Some times, you may need to do the below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;chmod +x installer-file.deb&lt;/code&gt; - Give execute permission&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;dpkg -i installer-file.deb&lt;/code&gt; - You may need to use &lt;code&gt;sudo&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>Shell Scripting</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/shell-scripting.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/shell-scripting.html</id><summary type="html">&lt;h3 id="prints-the-env-variable-name-path"&gt;&lt;a class="toclink" href="#prints-the-env-variable-name-path"&gt;Prints the env variable name PATH.&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $PATH
+&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h3 id="prints-the-env-variable-name-path"&gt;&lt;a class="toclink" href="#prints-the-env-variable-name-path"&gt;Prints the env variable name PATH.&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $PATH
+&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Rajesh receives STAR TA award!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/rajesh-receives-star-ta-award.html" rel="alternate"></link><published>2018-05-03T15:15:38+05:30</published><updated>2018-05-03T15:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-05-03:/~mrprajesh/rajesh-receives-star-ta-award.html</id><summary type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
 &lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
 &lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2 id="first-lab"&gt;&lt;a class="toclink" href="#first-lab"&gt;First Lab&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
