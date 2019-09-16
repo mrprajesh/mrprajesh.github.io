@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - myCategory</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/mycategory.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-16T12:20:58+05:30</updated><subtitle></subtitle><entry><title>Linux</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/linux.html" rel="alternate"></link><published>2019-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-09-16:/~mrprajesh/linux.html</id><summary type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
+many distros out there. Whatever here works on debian based system like
+Ubuntu or Linux Mint, and may be with slight tinkering for other distros.&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
+many distros out there. Whatever here works on debian based system like
+Ubuntu or Linux Mint, and may be with slight tinkering for other distros.&lt;/p&gt;</content></entry></feed>

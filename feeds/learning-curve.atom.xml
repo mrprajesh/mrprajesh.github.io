@@ -5,14 +5,13 @@ I am making a note of whatever I had(/have been) learnt(/learning)
 during my stay at IIT Madras.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Linux&lt;/li&gt;
-&lt;li&gt;Shell scripting …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+&lt;li&gt;Linux ({filename}/learn …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
 during my stay at IIT Madras.  &lt;/p&gt;
 &lt;p&gt;The following are :&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Linux&lt;/li&gt;
+&lt;li&gt;Linux ({filename}/learn/linux.md)&lt;/li&gt;
 &lt;li&gt;Shell scripting&lt;/li&gt;
 &lt;li&gt;awk/sed&lt;/li&gt;
 &lt;li&gt;Makefile&lt;/li&gt;
