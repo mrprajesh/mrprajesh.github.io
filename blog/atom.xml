@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Rajesh's Blog</title>
+ <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/blog/"/>
+ <updated>2020-03-29T05:25:35+05:30</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Rajesh Pandian M</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Corona, origin, story, and some links</title>
+   <link href="http://localhost:4000/blog/corono-virus-pedia.html"/>
+   <updated>2020-03-19T22:52:50+05:30</updated>
+   <id>http://localhost:4000/corono-virus-pedia</id>
+   <content type="html">&lt;h2 id=&quot;originated&quot;&gt;Originated&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;The 2019 novel coronavirus was identified in Wuhan, Hubei province of China&lt;/li&gt;
+  &lt;li&gt;People were dying of an unknown disease causing pnuemonia&lt;/li&gt;
+  &lt;li&gt;The first case may be occurred on/after 17-Nov-2019&lt;/li&gt;
+  &lt;li&gt;China notified WHO, 31-Dec-2019&lt;/li&gt;
+  &lt;li&gt;Majority of the case had some connections to Wuhan wild-life market&lt;/li&gt;
+  &lt;li&gt;China shutdown Wuhan and closed-down sea food wet market&lt;/li&gt;
+  &lt;li&gt;International countries restricted their travelling to/from China&lt;/li&gt;
+  &lt;li&gt;First death in China &lt;a href=&quot;https://www.aljazeera.com/news/2020/01/timeline-china-coronavirus-spread-200126061554884.html&quot;&gt;9-Jan-2020&lt;/a&gt; announced on 11-Jan.&lt;/li&gt;
+  &lt;li&gt;On 30-Jan-2020 WHO declared coronavirus a global emergency&lt;/li&gt;
+  &lt;li&gt;On 11-Mar-2020 WHO declared pandemic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;naming&quot;&gt;Naming&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;2019-nCOV&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;2019 novel coronavirus&lt;/code&gt; is initial temporary name&lt;/li&gt;
+  &lt;li&gt;It is a novel type in human coronavirus &lt;a href=&quot;https://en.wikipedia.org/wiki/Coronavirus#Human_coronaviruses&quot;&gt;family&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;cornavirus is amoung the viruses that causes common cold&lt;/li&gt;
+  &lt;li&gt;This is the 7th type&lt;/li&gt;
+  &lt;li&gt;On 11-Feb-2020 International Committee on Taxonomy of Viruses (ICTV) named virus a &lt;code class=&quot;highlighter-rouge&quot;&gt;SAR-COV-2&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;due to the similarity with 2003 SARS virus&lt;/li&gt;
+  &lt;li&gt;disease as coronavirus disease (COVID-19)&lt;/li&gt;
+  &lt;li&gt;virus as Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)&lt;/li&gt;
+  &lt;li&gt;similar as HIV is virus; AIDS is disease&lt;/li&gt;
+  &lt;li&gt;WHO &lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/naming-the-coronavirus-disease-(covid-2019)-and-the-virus-that-causes-it&quot;&gt;call is&lt;/a&gt; as
+    &lt;blockquote&gt;
+      &lt;p&gt;From a risk communications perspective, using the name SARS can have unintended consequences in terms of creating unnecessary fear for some populations, especially in Asia which was worst affected by the SARS outbreak in 2003.
+For that reason and others, WHO has begun referring to the virus as “the virus responsible for COVID-19” or “the COVID-19 virus” when communicating with the public.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;virus-origin&quot;&gt;Virus origin&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Possibly mutated from bat and then maybe pangolin&lt;/li&gt;
+  &lt;li&gt;Then to a human&lt;/li&gt;
+  &lt;li&gt;Definitely Zoonotic&lt;/li&gt;
+  &lt;li&gt;Human-human transmission&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;characteristics&quot;&gt;Characteristics&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Respiratory disease - affects tissues in the lungs.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It has a R0 factor of 1.4-2.5 as said &lt;a href=&quot;https://www.who.int/news-room/detail/23-01-2020-statement-on-the-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;It is highly contagious - transmitted from person affect&lt;/li&gt;
+  &lt;li&gt;Aerosol, contacting the Plastic/metal Items and touhcing eye/nose/face/mouth&lt;/li&gt;
+  &lt;li&gt;It is incubation period (time between infection to show symptoms) of 2-14 days.&lt;/li&gt;
+  &lt;li&gt;Fatality rate is 1-7% (varies based on region and age-group)&lt;/li&gt;
+  &lt;li&gt;Affects the elderly persons and immune deficient person (who has high blood pressure, heart disease, lung disease, cancer or diabetes) than the healthy young ones&lt;/li&gt;
+  &lt;li&gt;Common &lt;a href=&quot;https://en.wikipedia.org/wiki/Coronavirus_disease_2019#Signs_and_symptoms&quot;&gt;Symptoms&lt;/a&gt; - Fever, Dry cough, Fatigue, Sputum production, Shortness of breath&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;prevention-measure&quot;&gt;Prevention measure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Frequent hand-washing with soap/sanitizer 20 seconds&lt;/li&gt;
+  &lt;li&gt;Cover your mouth/nose when sneezing/coughing; otherwise elbow cough&lt;/li&gt;
+  &lt;li&gt;Use mask when visiting an affected person or in hospital&lt;/li&gt;
+  &lt;li&gt;Maintain social distancing (1 meter) with public&lt;/li&gt;
+  &lt;li&gt;Avoid crowded places&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;treatment&quot;&gt;Treatment&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Unknown!&lt;/li&gt;
+  &lt;li&gt;Symptomatic - Treat the symptoms&lt;/li&gt;
+  &lt;li&gt;Healthy person recovers on their own&lt;/li&gt;
+  &lt;li&gt;Weak persons - Breathing problems/Pneumonia, ARDS,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vaccine&quot;&gt;Vaccine&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Not present&lt;/li&gt;
+  &lt;li&gt;Would take at least 18 months&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WHO &lt;a href=&quot;https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports&quot;&gt;situation reports&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;WHO &lt;a href=&quot;https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd&quot;&gt;dash board&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.worldometers.info/coronavirus/&quot;&gt;Worldometer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://coronavirus.jhu.edu/map.html&quot;&gt;Johns Hopkins University.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bing.com/covid&quot;&gt;BING&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://covidout.in/&quot;&gt;India&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.mohfw.gov.in/&quot;&gt;Govt. of India&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hovering anchor tag heading in Jekyll</title>
+   <link href="http://localhost:4000/blog/hovering-anchor-tags-headings.html"/>
+   <updated>2020-03-19T20:23:24+05:30</updated>
+   <id>http://localhost:4000/hovering-anchor-tags-headings</id>
+   <content type="html">&lt;p&gt;I like when (sub)heading has anchor links on a long blog post.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-an-example&quot;&gt;This is an example&lt;/h2&gt;
+&lt;p&gt;Can you see a link for the above heading? Try moving the cursor over the heading&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-achieve-it&quot;&gt;How to achieve it?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;in &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/default.html&lt;/code&gt; after html tag&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;and just before &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;anchors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;have-customized-it&quot;&gt;Have customized it?&lt;/h2&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nc&quot;&gt;.anchorjs-link&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#aaa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;nc&quot;&gt;.anchorjs-link&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;:hover&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ff5231&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;anchors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;placement&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;anchors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;As &lt;a href=&quot;https://github.com/allejo/jekyll-anchor-headings&quot;&gt;jekyll-anchor-heading&lt;/a&gt; did not work&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bryanbraun.com/anchorjs/#installation&quot;&gt;AnchorJs&lt;/a&gt; helped me&lt;/li&gt;
+  &lt;li&gt;we can anchor &lt;code class=&quot;highlighter-rouge&quot;&gt;para&lt;/code&gt; as well.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>using &quot;raw&quot; tag in jekyll to view liquid tags</title>
+   <link href="http://localhost:4000/blog/raw-tag-jekyll.html"/>
+   <updated>2020-03-19T19:44:39+05:30</updated>
+   <id>http://localhost:4000/raw-tag-jekyll</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;For example in a &lt;a href=&quot;/blog/latex-jekyll.html&quot;&gt;post&lt;/a&gt;
+ I mentioned how to enable &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt; in jekyll&lt;/li&gt;
+  &lt;li&gt;at 4th step i said include the below tag.
+    &lt;blockquote&gt;
+      &lt;p&gt;{% include mathjax.html %}&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;jekyll did not allow me to &lt;code class=&quot;highlighter-rouge&quot;&gt;include&lt;/code&gt; above line into &lt;code class=&quot;highlighter-rouge&quot;&gt;code blocks&lt;/code&gt; in post.&lt;/li&gt;
+  &lt;li&gt;that is where I found this &lt;code class=&quot;highlighter-rouge&quot;&gt;raw&lt;/code&gt; tag to be very helpful. use as below&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mathjax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endraw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Alternatively, we can disable liquid processing (jekyll v4.0+) in the post’s front matter use&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;render_with_liquid: false&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;see more &lt;a href=&quot;https://jekyllrb.com/docs/liquid/tags/&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How to add mins to read in jekyll post like medium</title>
+   <link href="http://localhost:4000/blog/add-min-read-to-jekyll.html"/>
+   <updated>2020-03-19T18:53:53+05:30</updated>
+   <id>http://localhost:4000/add-min-read-to-jekyll</id>
+   <content type="html">&lt;p&gt;Edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/post.html&lt;/code&gt; and place below lines appropriately.&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;{% assign words = content | number_of_words %}&lt;/p&gt;
+
+  &lt;p&gt;{{ words | plus:179 | divided_by:180  }} min read&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I got this idea from &lt;a href=&quot;https://carlosbecker.com/posts/jekyll-reading-time-without-plugins&quot;&gt;Carlos Becker’s post&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;He has used &lt;code class=&quot;highlighter-rouge&quot;&gt;if-else&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Whereas I have &lt;strong&gt;avoided&lt;/strong&gt; that using &lt;code class=&quot;highlighter-rouge&quot;&gt;ceil(words/180)&lt;/code&gt; i.e same as &lt;code class=&quot;highlighter-rouge&quot;&gt;(words+179)/180&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;&lt;span class=&quot;reading-time&quot; title=&quot;Estimated read time&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+  &lt;p&gt;{% assign words = content | number_of_words %}&lt;/p&gt;
+
+  &lt;p&gt;{% if words &amp;lt; 360 %}&lt;/p&gt;
+
+  &lt;p&gt;1 min&lt;/p&gt;
+
+  &lt;p&gt;{% else %}&lt;/p&gt;
+
+  &lt;p&gt;{{ words | divided_by:180 }} mins&lt;/p&gt;
+
+  &lt;p&gt;{% endif %}&lt;/p&gt;
+
+  &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Thrust library and CUDA API</title>
+   <link href="http://localhost:4000/blog/thrust.html"/>
+   <updated>2020-03-18T15:49:47+05:30</updated>
+   <id>http://localhost:4000/thrust</id>
+   <content type="html">&lt;p&gt;For long time, I was under the impression that thrust functions can be
+invoked only from the main function/Host device. Just got to know that thrust
+(v1.8+) fucntion can be invocked inside the kernel&lt;/p&gt;
+
+&lt;div class=&quot;language-cuda highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;__global__&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d_A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sum&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;thrust&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;thrust&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;seq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d_A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d_A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;N&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Device side result = %f&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/a/26784463/2712045&quot;&gt;Source: SO link&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CUDA and its questions</title>
+   <link href="http://localhost:4000/blog/cuda.html"/>
+   <updated>2020-03-18T15:49:43+05:30</updated>
+   <id>http://localhost:4000/cuda</id>
+   <content type="html">&lt;p&gt;There we were some question raised during Rupesh’s GPU class today.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;what is sequence of actions for ‘D[1]=10’ in &lt;code class=&quot;highlighter-rouge&quot;&gt;cuda&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;thrust&lt;/code&gt;
+    &lt;blockquote&gt;
+      &lt;ul&gt;
+        &lt;li&gt;first the index operator&lt;/li&gt;
+        &lt;li&gt;in device_vector.h &lt;a href=&quot;http://thrust.github.io/doc/device__vector_8h_source.html#l00239&quot;&gt;Line 240+290/300&lt;/a&gt;
+          &lt;blockquote&gt;
+            &lt;p&gt;declare these members for the purpose of Doxygenating them. they actually exist in a derived-from class&lt;/p&gt;
+          &lt;/blockquote&gt;
+        &lt;/li&gt;
+        &lt;li&gt;then vector_base.h &lt;a href=&quot;https://github.com/thrust/thrust/blob/master/thrust/detail/vector_base.h#L242&quot;&gt;L242&lt;/a&gt; &lt;a href=&quot;https://github.com/thrust/thrust/blob/master/thrust/detail/vector_base.h#L42&quot;&gt;L42&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;then contiguous_storage.h&lt;/li&gt;
+        &lt;li&gt;in thrust::detail::contiguous_storage::reference   &lt;a href=&quot;https://github.com/thrust/thrust/blob/master/thrust/detail/contiguous_storage.h#L36&quot;&gt;L36&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;then operator[] at &lt;a href=&quot;https://github.com/thrust/thrust/blob/a33734bdcabd2bb723b7edca0957ebf3e4b387d5/thrust/detail/contiguous_storage.inl#L173&quot;&gt;line173&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;CAUTION:&lt;/strong&gt; Not sure about device_reference is focus!? &lt;a href=&quot;https://github.com/thrust/thrust/blob/7df7efe3542a0ab549530bc478467320467e0094/thrust/device_reference.h#L290&quot;&gt;L290&lt;/a&gt;
+device_reference.inl &lt;a href=&quot;https://github.com/thrust/thrust/blob/7df7efe3542a0ab549530bc478467320467e0094/thrust/detail/device_reference.inl#L28&quot;&gt;L2+42&lt;/a&gt;
+reference.h &lt;a href=&quot;https://github.com/thrust/thrust/blob/master/thrust/detail/reference.h#L82&quot;&gt;L82&lt;/a&gt;
+reference.inl at operator= &lt;a href=&quot;https://github.com/thrust/thrust/blob/master/thrust/detail/reference.inl#L65&quot;&gt;L65&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Why is the &lt;code class=&quot;highlighter-rouge&quot;&gt;blockDim.z&lt;/code&gt; 64 whereas &lt;code class=&quot;highlighter-rouge&quot;&gt;x&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;y&lt;/code&gt; is 1024
+    &lt;blockquote&gt;
+      &lt;p&gt;That is how it is designed to be in cuda/GPU.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why is &lt;code class=&quot;highlighter-rouge&quot;&gt;gridDim.y or z&lt;/code&gt; is not &lt;script type=&quot;math/tex&quot;&gt;2^{16}&lt;/script&gt; but &lt;script type=&quot;math/tex&quot;&gt;2^{16}-1&lt;/script&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Good question! unknown! Some curious people &lt;a href=&quot;https://forums.developer.nvidia.com/t/why-65535-instead-of-65536-at-maximum-size-for-each-griddimension-and-2d-tex-reference/24528&quot;&gt;1&lt;/a&gt;&lt;/p&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;Some people &lt;a href=&quot;https://forums.developer.nvidia.com/t/grid-dimention-why-65535/6853&quot;&gt;2&lt;/a&gt;
+Since block IDs begin at zero, shouldn’t the maximum dimension therefore be 65536? Having the limit as 65535 allows for block IDs [0, 65534], so we’re losing one ID.&lt;/p&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Does GTX 680 has limit of 2048 threads per thread block?
+    &lt;blockquote&gt;
+      &lt;p&gt;I think NO. See &lt;a href=&quot;https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#features-and-technical-specifications__technical-specifications-per-compute-capability&quot;&gt;this!&lt;/a&gt; and &lt;a href=&quot;https://developer.download.nvidia.com/compute/DevZone/docs/html/C/doc/CUDA_C_Programming_Guide.pdf&quot;&gt;table F2 in Guide v4&lt;/a&gt;
+From CC v2.0+ it is 1024&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Valid limits of kernel launches
+    &lt;blockquote&gt;
+      &lt;p&gt;There are multiple limits. All must be satisfied.&lt;/p&gt;
+      &lt;blockquote&gt;
+        &lt;ol&gt;
+          &lt;li&gt;The maximum number of threads in the block is limited to 1024. This is the product of whatever your threadblock dimensions are (xyz).&lt;/li&gt;
+          &lt;li&gt;The maximum x-dimension is 1024. (1024,1,1) is legal. (1025,1,1) is not legal.&lt;/li&gt;
+          &lt;li&gt;The maximum y-dimension is 1024. (1,1024,1) is legal. (1,1025,1) is not legal.&lt;/li&gt;
+          &lt;li&gt;The maximum z-dimension is 64. (1,1,64) is legal. (2,2,64) is also legal. (1,1,65) is not legal.
+Also, threadblock dimensions of 0 in any position are not legal.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/blockquote&gt;
+
+      &lt;p&gt;Your choice of threadblock dimensions (x,y,z) must satisfy each of the rules 1-4 above.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Source &lt;a href=&quot;https://forums.developer.nvidia.com/t/maximum-number-of-threads-on-thread-block/46392/2&quot;&gt;Devtalk&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;dim3&lt;/code&gt; is actually a struct of &lt;code class=&quot;highlighter-rouge&quot;&gt;uint3&lt;/code&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;int3 make_int3(2,3,4);&lt;/code&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How to use Latex / MathJax in Jekyll</title>
+   <link href="http://localhost:4000/blog/latex-jekyll.html"/>
+   <updated>2020-03-17T16:12:01+05:30</updated>
+   <id>http://localhost:4000/latex-jekyll</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;create &lt;code class=&quot;highlighter-rouge&quot;&gt;_include/mathjax.html&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;add the below code&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/x-mathjax-config&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;MathJax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Hub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;extensions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;MathMenu.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;MathZoom.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;AssistiveMML.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;a11y/accessibility-menu.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;jax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;input/TeX&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;output/CommonHTML&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;TeX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;extensions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;AMSmath.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;AMSsymbols.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;noErrors.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;noUndefined.js&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;MathJax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Hub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Register&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;StartupHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;TeX Jax Ready&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;TEX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MathJax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;InputJax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TeX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;COLS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;WW&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;WW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;TEX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Parse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prototype&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;W&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])}&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;WW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;TEX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Definitions&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;psmallmatrix&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;COLS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.2em&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;async&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/default.html&lt;/code&gt; add a include line before &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/body&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;…&lt;/p&gt;
+
+  &lt;p&gt;{% include mathjax.html %}&lt;/p&gt;
+
+  &lt;p&gt;&amp;lt;/body&amp;gt;&lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;that’s it. Enclose math symbols within &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;e.g Some random &lt;script type=&quot;math/tex&quot;&gt;A_{m \times n} \cdot B^{n} = C_n&lt;/script&gt;
+    &lt;div class=&quot;language-tex highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;m &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\times&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;\cdot&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;^{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt; C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;n &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;$$&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;some text &lt;script type=&quot;math/tex&quot;&gt;\TeX&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Thanks to Arthur O’Dwyer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://quuxplusone.github.io/blog/2018/08/05/mathjax-in-jekyll/&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Quuxplusone/blog/commit/a829f7fae66a51771c30ed259739650524c60e66&quot;&gt;Git code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Some new words - inspired by COVID-19</title>
+   <link href="http://localhost:4000/blog/new-words.html"/>
+   <updated>2020-03-11T19:17:59+05:30</updated>
+   <id>http://localhost:4000/new-words</id>
+   <content type="html">&lt;p&gt;In this novel coronovirus season learnt some new words.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;epidemic
+    &lt;blockquote&gt;
+      &lt;p&gt;a widespread occurrence of an infectious disease in a community at a particular time.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;pandemic
+    &lt;blockquote&gt;
+      &lt;p&gt;(of a disease) prevalent over a whole country or the world.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Price gouging
+    &lt;blockquote&gt;
+      &lt;p&gt;Price gouging is a term referring to when a seller &lt;strong&gt;increases the prices&lt;/strong&gt; of goods, to a level &lt;strong&gt;much higher than&lt;/strong&gt; is considered &lt;strong&gt;reasonable&lt;/strong&gt;, and is considered exploitative, potentially to an unethical extent. Usually this event occurs after a demand or supply shock.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Paywall
+    &lt;blockquote&gt;
+      &lt;p&gt;A paywall is a method of restricting access to content via a purchase or paid subscription&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;example-sentence&quot;&gt;Example sentence.&lt;/h3&gt;
+
+&lt;p&gt;WHO said COVID-19 disease is epidemic and &lt;del&gt;nearly pandemic&lt;/del&gt; officially pandemic today. While sellers are price gouging masks/sanitizing items, nature journal removed the paywall for all research involving coronovirus. Sweet!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Same spelling but different pronunciation.</title>
+   <link href="http://localhost:4000/blog/overseas-pronounciation.html"/>
+   <updated>2020-03-11T10:53:15+05:30</updated>
+   <id>http://localhost:4000/overseas-pronounciation</id>
+   <content type="html">&lt;p&gt;So, we know homonyms. Same pronunciation but different spelling/meaning.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;e.g. right and write&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But, this word &lt;strong&gt;overseas&lt;/strong&gt; has same spelling but different meaning/pronunciation.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;adverb: overseas; /əʊvəˈsiːz/&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;in or to a foreign country, especially one across the sea.
+“he spent quite a lot of time working overseas”&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;adjective: overseas;  /ˈəʊvəsiːz/&lt;/p&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;from, to, or relating to a foreign country, especially one across the sea.
+“overseas trips”&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Is this also homonyms? Time to see its &lt;a href=&quot;https://www.google.com/search?q=Homonyms&quot;&gt;definition&lt;/a&gt;.
+It seems like. Are there more?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ready, get-set, and go!</title>
+   <link href="http://localhost:4000/blog/check-code-blocks.html"/>
+   <updated>2020-03-09T18:58:11+05:30</updated>
+   <id>http://localhost:4000/check-code-blocks</id>
+   <content type="html">&lt;p&gt;This is to check if the syntax highlighting is working fine.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;  &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+&lt;/span&gt;  &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]){&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello There!&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EXIT_SUCCESS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World</title>
+   <link href="http://localhost:4000/blog/helloworld.html"/>
+   <updated>2020-03-09T12:39:20+05:30</updated>
+   <id>http://localhost:4000/helloworld</id>
+   <content type="html">&lt;p&gt;This is my first post in &lt;a href=&quot;https://mrprajesh.github.io/blog&quot;&gt;Github.io&lt;/a&gt;
+blog.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

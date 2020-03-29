@@ -1,0 +1,124 @@
+[
+  
+    {
+
+      "title"    : "Corona, origin, story, and some links",
+      "url"      : "/blog/corono-virus-pedia.html",
+      "category" : "",
+      "tags"     : "coronovirus, covid19",
+      "date"     : "2020-03-19 22:52:50 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Hovering anchor tag heading in Jekyll",
+      "url"      : "/blog/hovering-anchor-tags-headings.html",
+      "category" : "",
+      "tags"     : "jekyll, coding",
+      "date"     : "2020-03-19 20:23:24 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "using &quot;raw&quot; tag in jekyll to view liquid tags",
+      "url"      : "/blog/raw-tag-jekyll.html",
+      "category" : "",
+      "tags"     : "jekyll",
+      "date"     : "2020-03-19 19:44:39 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "How to add mins to read in jekyll post like medium",
+      "url"      : "/blog/add-min-read-to-jekyll.html",
+      "category" : "",
+      "tags"     : "jekyll",
+      "date"     : "2020-03-19 18:53:53 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Thrust library and CUDA API",
+      "url"      : "/blog/thrust.html",
+      "category" : "",
+      "tags"     : "cuda, thrust",
+      "date"     : "2020-03-18 15:49:47 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "CUDA and its questions",
+      "url"      : "/blog/cuda.html",
+      "category" : "",
+      "tags"     : "cuda",
+      "date"     : "2020-03-18 15:49:43 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "How to use Latex / MathJax in Jekyll",
+      "url"      : "/blog/latex-jekyll.html",
+      "category" : "",
+      "tags"     : "jekyll, latex, mathjax",
+      "date"     : "2020-03-17 16:12:01 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Some new words - inspired by COVID-19",
+      "url"      : "/blog/new-words.html",
+      "category" : "",
+      "tags"     : "vocab",
+      "date"     : "2020-03-11 19:17:59 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Same spelling but different pronunciation.",
+      "url"      : "/blog/overseas-pronounciation.html",
+      "category" : "",
+      "tags"     : "english",
+      "date"     : "2020-03-11 10:53:15 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Ready, get-set, and go!",
+      "url"      : "/blog/check-code-blocks.html",
+      "category" : "",
+      "tags"     : "cpp, coding",
+      "date"     : "2020-03-09 18:58:11 +0530",
+      "discription" : ""
+
+    } ,
+  
+    {
+
+      "title"    : "Hello World",
+      "url"      : "/blog/helloworld.html",
+      "category" : "",
+      "tags"     : "jekyll",
+      "date"     : "2020-03-09 12:39:20 +0530",
+      "discription" : ""
+
+    } 
+  
+]
