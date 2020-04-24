@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-16T13:32:02+05:30</updated><subtitle></subtitle><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2020-01-17T19:15:38+05:30</updated><subtitle></subtitle><entry><title>Recieved STAR TA award again!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/recieved-star-ta-award-again.html" rel="alternate"></link><published>2020-01-17T19:15:38+05:30</published><updated>2020-01-17T19:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2020-01-17:/~mrprajesh/recieved-star-ta-award-again.html</id><summary type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the outstanding teaching assistant (&lt;strong&gt;STAR TA&lt;/strong&gt;) for Aug-Dec 2019.
+This time for &lt;a href="https://www.cse.iitm.ac.in/course_details.php?arg=MTMz"&gt;CS1111 - Problem Solving Using Computers&lt;/a&gt;. Instructor is
+&lt;a href="https://www.cse.iitm.ac.in/~swamy/"&gt;N.S.Narayanaswamy&lt;/a&gt;. It is a first-year programming course for CS under graduate course. &lt;a href="/rajesh-receives-star-ta-award.html"&gt;Last time&lt;/a&gt;
+it was for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;Rupesh Nasres's OOAIA course …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the outstanding teaching assistant (&lt;strong&gt;STAR TA&lt;/strong&gt;) for Aug-Dec 2019.
+This time for &lt;a href="https://www.cse.iitm.ac.in/course_details.php?arg=MTMz"&gt;CS1111 - Problem Solving Using Computers&lt;/a&gt;. Instructor is
+&lt;a href="https://www.cse.iitm.ac.in/~swamy/"&gt;N.S.Narayanaswamy&lt;/a&gt;. It is a first-year programming course for CS under graduate course. &lt;a href="/rajesh-receives-star-ta-award.html"&gt;Last time&lt;/a&gt;
+it was for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;Rupesh Nasres's OOAIA course&lt;/a&gt;.
+The award ceremony happened on 23-Jan-2020 at CS25. The awards were present by &lt;a href="https://www.cse.iitm.ac.in/profile.php?arg=Nw=="&gt;HoD CSE&lt;/a&gt;. Hod said the department selected 30 teaching assistants (Masters+Ph.Ds) out of ~300 TAs. A few faculty members were present (RN,KS,NVK) and a couple of TAs (Gargi+few others spoke) were to share their experiences.&lt;/p&gt;</content></entry><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Mirroring my &lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/"&gt;cse site&lt;/a&gt; on Github pages as &lt;a href="http://mrprajesh.github.io"&gt;mrprajesh.github.io&lt;/a&gt; as well as &lt;a href="http://mrprajesh.co.in"&gt;mrprajesh.co.in&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My workflow to publish on domain took lesser time. Now, I can update the site quickly.&lt;/p&gt;
 &lt;ul&gt;
@@ -16,7 +23,7 @@
 &lt;/ul&gt;
 &lt;p&gt;This is &lt;code&gt;C/C++&lt;/code&gt; language. Do you see the highlighting of &lt;code&gt;code blocks&lt;/code&gt;. 
 It is due to &lt;a href="https://python-markdown.github.io/extensions/code_hilite/"&gt;this&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
     &lt;span class="n"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello There!&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -25,7 +32,7 @@ It is due to &lt;a href="https://python-markdown.github.io/extensions/code_hilit
 
 
 &lt;p&gt;This is &lt;code&gt;bash&lt;/code&gt; or &lt;code&gt;shell&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;cd&lt;/span&gt; ../tamil/
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;cd&lt;/span&gt; ../tamil/
 rajz@LordOfWarriors:~$ ls
 Desktop  Documents  Downloads  Dropbox  Music  Pictures  Public  Templates  Videos
 rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;pwd&lt;/span&gt;
@@ -122,10 +129,71 @@ See this http://member.acm.org/~mrprajesh&lt;/p&gt;</content></entry><entry><tit
 on the basic Linux adminstration stuff. Slides &lt;a href="https://drive.google.com/drive/folders/1bmN-95EjRwI0qGVUhf8EOMcCtbB6tW6L"&gt;here&lt;/a&gt;. 
 Well, well..! I can teach too. Felt happy!&lt;/p&gt;</summary><content type="html">&lt;p&gt;Trained project staff of High Performance Computing Environment at our &lt;a href="https://cc.iitm.ac.in/"&gt;Computer Center&lt;/a&gt;
 on the basic Linux adminstration stuff. Slides &lt;a href="https://drive.google.com/drive/folders/1bmN-95EjRwI0qGVUhf8EOMcCtbB6tW6L"&gt;here&lt;/a&gt;. 
-Well, well..! I can teach too. Felt happy!&lt;/p&gt;</content></entry><entry><title>Git and Github</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/git-and-github.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T13:32:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/git-and-github.html</id><summary type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
+Well, well..! I can teach too. Felt happy!&lt;/p&gt;</content></entry><entry><title>Learning to Teach CS1100/CS1111</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/learning-to-teach-cs1100cs1111.html" rel="alternate"></link><published>2018-09-18T12:28:12+05:30</published><updated>2019-09-18T12:28:12+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-18:/~mrprajesh/learning-to-teach-cs1100cs1111.html</id><summary type="html">&lt;h2 id="terminal"&gt;&lt;a class="toclink" href="#terminal"&gt;Terminal&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open &lt;code&gt;terminal&lt;/code&gt; after pressing super key or using shortcut &lt;code&gt;CTRL+ALT+T&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt; - list the files in the current directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; - List the path of the working directory/folder.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - Creates a directory named &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - change directory to whatever specified in &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rmdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt;- removed the …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="terminal"&gt;&lt;a class="toclink" href="#terminal"&gt;Terminal&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Open &lt;code&gt;terminal&lt;/code&gt; after pressing super key or using shortcut &lt;code&gt;CTRL+ALT+T&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls&lt;/code&gt; - list the files in the current directory&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; - List the path of the working directory/folder.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - Creates a directory named &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - change directory to whatever specified in &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rmdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt;- removed the empty directory as specfied.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;date&lt;/code&gt;  - system date/time&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;clear&lt;/code&gt; - clear&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;man &amp;lt;CMD&amp;gt;&lt;/code&gt; - manual or help pages for all the commands.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="hello-world-program"&gt;&lt;a class="toclink" href="#hello-world-program"&gt;Hello World Program&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn &lt;code&gt;Hello World&lt;/code&gt; program. &lt;/li&gt;
+&lt;li&gt;Learn to type and save&lt;/li&gt;
+&lt;li&gt;Learn to compile and debug errors if any.&lt;/li&gt;
+&lt;li&gt;Learn to execute or run the program.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="evaluations-of-expressions-datatypes"&gt;&lt;a class="toclink" href="#evaluations-of-expressions-datatypes"&gt;Evaluations of expressions / datatypes&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="scanf-and-printf"&gt;&lt;a class="toclink" href="#scanf-and-printf"&gt;scanf and printf&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="functions"&gt;&lt;a class="toclink" href="#functions"&gt;functions&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="condition-if-else"&gt;&lt;a class="toclink" href="#condition-if-else"&gt;condition - if else&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="loop-whiledo-whilefor"&gt;&lt;a class="toclink" href="#loop-whiledo-whilefor"&gt;loop - while/do-while/for&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="file-reading"&gt;&lt;a class="toclink" href="#file-reading"&gt;File reading&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id="self-learning"&gt;&lt;a class="toclink" href="#self-learning"&gt;Self learning&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;gets is deprecated
+    fgets(str, 100, stdin)&lt;/li&gt;
+&lt;li&gt;terminal buffer&lt;/li&gt;
+&lt;li&gt;variable length array vs malloc // stack vs host alloc &lt;/li&gt;
+&lt;li&gt;variadic function&lt;/li&gt;
+&lt;li&gt;Not to return char array&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;there is no reference in c // only pointers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the blow is a error in C/gcc. it is okay if you compile with gcc
+swap(a,b);
+```
+void swap(int &amp;amp;a, int &amp;amp;b){
+    &lt;em&gt;a = &lt;/em&gt;a + &lt;em&gt;b;
+    &lt;/em&gt;b = &lt;em&gt;a - &lt;/em&gt;b;
+    &lt;em&gt;a = &lt;/em&gt;a - *b;
+}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;code&gt;- This is how we should do in c/gcc
+swap(&amp;amp;a,&amp;amp;b)&lt;/code&gt;
+void swap(int &lt;em&gt;a, int &lt;/em&gt;b){
+    &lt;em&gt;a = &lt;/em&gt;a + &lt;em&gt;b;
+    &lt;/em&gt;b = &lt;em&gt;a - &lt;/em&gt;b;
+    &lt;em&gt;a = &lt;/em&gt;a - *b;
+}
+``` &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>Git and Github</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/git-and-github.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T13:32:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/git-and-github.html</id><summary type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
 manage large open/close software projects. &lt;/p&gt;
 &lt;h1 id="to-install"&gt;&lt;a class="toclink" href="#to-install"&gt;To install&lt;/a&gt;&lt;/h1&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install git
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install git
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -135,7 +203,7 @@ manage large open/close software projects. &lt;/p&gt;
 &lt;li&gt;&lt;code&gt;git add &amp;lt;File/FOLDER&amp;gt;&lt;/code&gt; - Monitors the &lt;code&gt;file/FOLDER&lt;/code&gt; for changes …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
 manage large open/close software projects. &lt;/p&gt;
 &lt;h1 id="to-install"&gt;&lt;a class="toclink" href="#to-install"&gt;To install&lt;/a&gt;&lt;/h1&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install git
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install git
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -156,7 +224,7 @@ manage large open/close software projects. &lt;/p&gt;
 &lt;h2 id="one-time-setup"&gt;&lt;a class="toclink" href="#one-time-setup"&gt;One time setup&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;As all the commits are logged with the username and email. It is a must
 to setup this. used &lt;code&gt;global&lt;/code&gt; as I wanted the same setup for all my repos.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git config --global user.name &amp;quot;YOUR FULL NAME&amp;quot;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git config --global user.name &amp;quot;YOUR FULL NAME&amp;quot;
 git config --global user.email &amp;quot;YOUR-EMAIl-ID@gmail.com&amp;quot;
 &lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Linux</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/linux.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/linux.html</id><summary type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
 many distros out there. Whatever here works on debian based system like
@@ -181,9 +249,9 @@ Some times, you may need to do the below.&lt;/p&gt;
 &lt;li&gt;&lt;code&gt;chmod +x installer-file.deb&lt;/code&gt; - Give execute permission&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dpkg -i installer-file.deb&lt;/code&gt; - You may need to use &lt;code&gt;sudo&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content></entry><entry><title>Shell Scripting</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/shell-scripting.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/shell-scripting.html</id><summary type="html">&lt;h3 id="prints-the-env-variable-name-path"&gt;&lt;a class="toclink" href="#prints-the-env-variable-name-path"&gt;Prints the env variable name PATH.&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $PATH
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $PATH
 &lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h3 id="prints-the-env-variable-name-path"&gt;&lt;a class="toclink" href="#prints-the-env-variable-name-path"&gt;Prints the env variable name PATH.&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $PATH
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $PATH
 &lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Rajesh receives STAR TA award!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/rajesh-receives-star-ta-award.html" rel="alternate"></link><published>2018-05-03T15:15:38+05:30</published><updated>2018-05-03T15:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-05-03:/~mrprajesh/rajesh-receives-star-ta-award.html</id><summary type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
 &lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the STAR TA for Jan-May 2018.
 &lt;img src="images/STAR__TA.jpg" alt="Picture of Rajesh's STAR TA" style="center;height: 600px;width: 800px;"/&gt;&lt;/p&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2 id="first-lab"&gt;&lt;a class="toclink" href="#first-lab"&gt;First Lab&lt;/a&gt;&lt;/h2&gt;

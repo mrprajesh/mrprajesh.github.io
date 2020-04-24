@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - News</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/news.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-03T20:39:57+05:30</updated><subtitle></subtitle><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - News</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/news.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2020-01-17T19:15:38+05:30</updated><subtitle></subtitle><entry><title>Recieved STAR TA award again!</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/recieved-star-ta-award-again.html" rel="alternate"></link><published>2020-01-17T19:15:38+05:30</published><updated>2020-01-17T19:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2020-01-17:/~mrprajesh/recieved-star-ta-award-again.html</id><summary type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the outstanding teaching assistant (&lt;strong&gt;STAR TA&lt;/strong&gt;) for Aug-Dec 2019.
+This time for &lt;a href="https://www.cse.iitm.ac.in/course_details.php?arg=MTMz"&gt;CS1111 - Problem Solving Using Computers&lt;/a&gt;. Instructor is
+&lt;a href="https://www.cse.iitm.ac.in/~swamy/"&gt;N.S.Narayanaswamy&lt;/a&gt;. It is a first-year programming course for CS under graduate course. &lt;a href="/rajesh-receives-star-ta-award.html"&gt;Last time&lt;/a&gt;
+it was for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;Rupesh Nasres's OOAIA course …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh Pandian M is selected as one of the outstanding teaching assistant (&lt;strong&gt;STAR TA&lt;/strong&gt;) for Aug-Dec 2019.
+This time for &lt;a href="https://www.cse.iitm.ac.in/course_details.php?arg=MTMz"&gt;CS1111 - Problem Solving Using Computers&lt;/a&gt;. Instructor is
+&lt;a href="https://www.cse.iitm.ac.in/~swamy/"&gt;N.S.Narayanaswamy&lt;/a&gt;. It is a first-year programming course for CS under graduate course. &lt;a href="/rajesh-receives-star-ta-award.html"&gt;Last time&lt;/a&gt;
+it was for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;Rupesh Nasres's OOAIA course&lt;/a&gt;.
+The award ceremony happened on 23-Jan-2020 at CS25. The awards were present by &lt;a href="https://www.cse.iitm.ac.in/profile.php?arg=Nw=="&gt;HoD CSE&lt;/a&gt;. Hod said the department selected 30 teaching assistants (Masters+Ph.Ds) out of ~300 TAs. A few faculty members were present (RN,KS,NVK) and a couple of TAs (Gargi+few others spoke) were to share their experiences.&lt;/p&gt;</content></entry><entry><title>Hosted on Github + my domain</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/hosted-on-github-my-domain.html" rel="alternate"></link><published>2019-08-27T17:36:00+05:30</published><updated>2019-09-03T20:39:57+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-27:/~mrprajesh/hosted-on-github-my-domain.html</id><summary type="html">&lt;h1 id="site-up"&gt;&lt;a class="toclink" href="#site-up"&gt;Site up&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Mirroring my &lt;a href="https://www.cse.iitm.ac.in/~mrprajesh/"&gt;cse site&lt;/a&gt; on Github pages as &lt;a href="http://mrprajesh.github.io"&gt;mrprajesh.github.io&lt;/a&gt; as well as &lt;a href="http://mrprajesh.co.in"&gt;mrprajesh.co.in&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My workflow to publish on domain took lesser time. Now, I can update the site quickly.&lt;/p&gt;
 &lt;ul&gt;
@@ -16,7 +23,7 @@
 &lt;/ul&gt;
 &lt;p&gt;This is &lt;code&gt;C/C++&lt;/code&gt; language. Do you see the highlighting of &lt;code&gt;code blocks&lt;/code&gt;. 
 It is due to &lt;a href="https://python-markdown.github.io/extensions/code_hilite/"&gt;this&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt; &lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 &lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;
     &lt;span class="n"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello There!&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -25,7 +32,7 @@ It is due to &lt;a href="https://python-markdown.github.io/extensions/code_hilit
 
 
 &lt;p&gt;This is &lt;code&gt;bash&lt;/code&gt; or &lt;code&gt;shell&lt;/code&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;cd&lt;/span&gt; ../tamil/
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;cd&lt;/span&gt; ../tamil/
 rajz@LordOfWarriors:~$ ls
 Desktop  Documents  Downloads  Dropbox  Music  Pictures  Public  Templates  Videos
 rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;pwd&lt;/span&gt;
