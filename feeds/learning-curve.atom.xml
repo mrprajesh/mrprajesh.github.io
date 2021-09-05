@@ -85,15 +85,15 @@ listen.  &lt;/p&gt;
 &lt;li&gt;Open &lt;code&gt;terminal&lt;/code&gt; after pressing super key or using shortcut &lt;code&gt;CTRL+ALT+T&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ls&lt;/code&gt; - list the files in the current directory&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; - List the path of the working directory/folder.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mkdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - Creates a directory named &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt; &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cd &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - change directory to whatever specified in &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - Creates a directory named &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - change directory to whatever specified in &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;rmdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt;- removed the …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2 id="terminal"&gt;&lt;a class="toclink" href="#terminal"&gt;Terminal&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Open &lt;code&gt;terminal&lt;/code&gt; after pressing super key or using shortcut &lt;code&gt;CTRL+ALT+T&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ls&lt;/code&gt; - list the files in the current directory&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;pwd&lt;/code&gt; - List the path of the working directory/folder.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;mkdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - Creates a directory named &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt; &lt;/li&gt;
-&lt;li&gt;&lt;code&gt;cd &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - change directory to whatever specified in &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mkdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - Creates a directory named &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd &amp;lt;DIRNAME&amp;gt;&lt;/code&gt; - change directory to whatever specified in &lt;code&gt;&amp;lt;DIRNAME&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;rmdir &amp;lt;DIRNAME&amp;gt;&lt;/code&gt;- removed the empty directory as specfied.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;date&lt;/code&gt;  - system date/time&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;clear&lt;/code&gt; - clear&lt;/li&gt;
@@ -101,7 +101,7 @@ listen.  &lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2 id="hello-world-program"&gt;&lt;a class="toclink" href="#hello-world-program"&gt;Hello World Program&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Learn &lt;code&gt;Hello World&lt;/code&gt; program. &lt;/li&gt;
+&lt;li&gt;Learn &lt;code&gt;Hello World&lt;/code&gt; program.&lt;/li&gt;
 &lt;li&gt;Learn to type and save&lt;/li&gt;
 &lt;li&gt;Learn to compile and debug errors if any.&lt;/li&gt;
 &lt;li&gt;Learn to execute or run the program.&lt;/li&gt;
@@ -117,31 +117,31 @@ listen.  &lt;/p&gt;
 &lt;li&gt;gets is deprecated
     fgets(str, 100, stdin)&lt;/li&gt;
 &lt;li&gt;terminal buffer&lt;/li&gt;
-&lt;li&gt;variable length array vs malloc // stack vs host alloc &lt;/li&gt;
+&lt;li&gt;variable length array vs malloc // stack vs host alloc&lt;/li&gt;
 &lt;li&gt;variadic function&lt;/li&gt;
 &lt;li&gt;Not to return char array&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;there is no reference in c // only pointers&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the blow is a error in C/gcc. it is okay if you compile with gcc
-swap(a,b);
-```
-void swap(int &amp;amp;a, int &amp;amp;b){
-    &lt;em&gt;a = &lt;/em&gt;a + &lt;em&gt;b;
-    &lt;/em&gt;b = &lt;em&gt;a - &lt;/em&gt;b;
-    &lt;em&gt;a = &lt;/em&gt;a - *b;
-}&lt;/li&gt;
+&lt;li&gt;there is no reference in c // only pointers&lt;/li&gt;
+&lt;li&gt;the blow is a error in C/gcc. it is okay if you compile with gcc&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;- This is how we should do in c/gcc
-swap(&amp;amp;a,&amp;amp;b)&lt;/code&gt;
-void swap(int &lt;em&gt;a, int &lt;/em&gt;b){
-    &lt;em&gt;a = &lt;/em&gt;a + &lt;em&gt;b;
-    &lt;/em&gt;b = &lt;em&gt;a - &lt;/em&gt;b;
-    &lt;em&gt;a = &lt;/em&gt;a - *b;
+&lt;p&gt;swap(a,b);&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;void swap(int &amp;amp;a, int &amp;amp;b){
+  *a = *a + *b;
+  *b = *a - *b;
+  *a = *a - *b;
 }
-``` &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>Git and Github</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/git-and-github.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T13:32:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/git-and-github.html</id><summary type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;This is how we should do in c/gcc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;swap(&amp;amp;a,&amp;amp;b)&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;void swap(int *a, int *b){
+  *a = *a + *b;
+  *b = *a - *b;
+  *a = *a - *b;
+}
+&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Git and Github</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/git-and-github.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T13:32:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/git-and-github.html</id><summary type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
 manage large open/close software projects. &lt;/p&gt;
 &lt;h1 id="to-install"&gt;&lt;a class="toclink" href="#to-install"&gt;To install&lt;/a&gt;&lt;/h1&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install git

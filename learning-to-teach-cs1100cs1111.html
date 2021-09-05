@@ -71,8 +71,8 @@
 <li>Open <code>terminal</code> after pressing super key or using shortcut <code>CTRL+ALT+T</code></li>
 <li><code>ls</code> - list the files in the current directory</li>
 <li><code>pwd</code> - List the path of the working directory/folder.</li>
-<li><code>mkdir &lt;DIRNAME&gt;</code> - Creates a directory named <code>&lt;DIRNAME&gt;</code> </li>
-<li><code>cd &lt;DIRNAME&gt;</code> - change directory to whatever specified in <code>&lt;DIRNAME&gt;</code> </li>
+<li><code>mkdir &lt;DIRNAME&gt;</code> - Creates a directory named <code>&lt;DIRNAME&gt;</code></li>
+<li><code>cd &lt;DIRNAME&gt;</code> - change directory to whatever specified in <code>&lt;DIRNAME&gt;</code></li>
 <li><code>rmdir &lt;DIRNAME&gt;</code>- removed the empty directory as specfied.</li>
 <li><code>date</code>  - system date/time</li>
 <li><code>clear</code> - clear</li>
@@ -80,7 +80,7 @@
 </ul>
 <h2 id="hello-world-program"><a class="toclink" href="#hello-world-program">Hello World Program</a></h2>
 <ul>
-<li>Learn <code>Hello World</code> program. </li>
+<li>Learn <code>Hello World</code> program.</li>
 <li>Learn to type and save</li>
 <li>Learn to compile and debug errors if any.</li>
 <li>Learn to execute or run the program.</li>
@@ -96,31 +96,31 @@
 <li>gets is deprecated
     fgets(str, 100, stdin)</li>
 <li>terminal buffer</li>
-<li>variable length array vs malloc // stack vs host alloc </li>
+<li>variable length array vs malloc // stack vs host alloc</li>
 <li>variadic function</li>
 <li>Not to return char array</li>
-<li>
-<p>there is no reference in c // only pointers</p>
-<ul>
-<li>the blow is a error in C/gcc. it is okay if you compile with gcc
-swap(a,b);
-```
-void swap(int &amp;a, int &amp;b){
-    <em>a = </em>a + <em>b;
-    </em>b = <em>a - </em>b;
-    <em>a = </em>a - *b;
-}</li>
+<li>there is no reference in c // only pointers</li>
+<li>the blow is a error in C/gcc. it is okay if you compile with gcc</li>
 </ul>
-<p><code>- This is how we should do in c/gcc
-swap(&amp;a,&amp;b)</code>
-void swap(int <em>a, int </em>b){
-    <em>a = </em>a + <em>b;
-    </em>b = <em>a - </em>b;
-    <em>a = </em>a - *b;
+<p>swap(a,b);</p>
+<div class="codehilite"><pre><span></span>void swap(int &amp;a, int &amp;b){
+  *a = *a + *b;
+  *b = *a - *b;
+  *a = *a - *b;
 }
-``` </p>
-</li>
+</pre></div>
+
+
+<ul>
+<li>This is how we should do in c/gcc</li>
 </ul>
+<p>swap(&amp;a,&amp;b)</p>
+<div class="codehilite"><pre><span></span>void swap(int *a, int *b){
+  *a = *a + *b;
+  *b = *a - *b;
+  *a = *a - *b;
+}
+</pre></div>
         </div><!-- /.entry-content -->
 
 </article>
