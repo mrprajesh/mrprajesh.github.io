@@ -51,7 +51,7 @@ VALUE : ?
 
     FileInput (*.vrp): <input type="file" id="fileInput">
     FileOutput (*.sol): <input type="file" id="fileOutput">
-    <button onclick="drawChart();formatText()">Draw</button>
+    <button onclick="drawChart();formatText();">Draw</button>
 
   <br><br>
   <div id="chart_div"></div>
@@ -103,8 +103,8 @@ fileOutput.addEventListener('change', function(e) {
         //data.addColumn('number', "Route 2");
 
 
-        var toolObj = {type: 'string',role: 'tooltip'};
-        var certObj = {type: 'boolean',role: 'certainty'};
+        //~ var toolObj = {type: 'string',role: 'tooltip'};
+        //~ var certObj = {type: 'boolean',role: 'certainty'};
         /*
         data.addColumn('number', "Route 1");
         data.addColumn(toolObj);
@@ -162,6 +162,8 @@ fileOutput.addEventListener('change', function(e) {
         lines = text.split("\n");
         //~ document.getElementById("resultBox").value = lines.length; //DEBUG
 
+        var toolObj = {type: 'string',role: 'tooltip'};
+        var certObj = {type: 'boolean',role: 'certainty'};
 
        	for (let ii = 0; ii < lines.length-1 ; ++ii) {
  					data.addColumn('number', "Route "+(ii+1));
@@ -181,7 +183,7 @@ fileOutput.addEventListener('change', function(e) {
           if(words[0] == "Route") { // e.g Route #1: 1 2 3 4
           	 data.setCell(k, 0, xArr[DEP]);
              data.setCell(k, shift+1, yArr[DEP]);
-             data.setCell(k, shift+2, "Route: " + (i+1) +" Customer: 0");
+             //~ data.setCell(k, shift+2, "Route: " + (i+1) +" Customer: 0");
              data.setCell(k, shift+3, false);
              k++;
             for(var jj = 2, len=words.length; jj < len; ++jj, ++k ){
@@ -193,11 +195,17 @@ fileOutput.addEventListener('change', function(e) {
             }
              data.setCell(k, 0, xArr[DEP]);
              data.setCell(k, shift+1, yArr[DEP]);
-             data.setCell(k, shift+2, "Route: " + (i+1) +" Customer: 0");
+             data.setCell(k, shift+2, "DEPOT");
+             //~ data.setCell(k, shift+2, "Route: " + (i+1) +" Customer: 0");
              data.setCell(k, shift+3, false);
              k++;
           }
         }
+
+        //~ var depotData = google.visualization.arrayToDataTable
+            //~ ([['x', 'Y', {'type': 'string', 'role': 'style'}],
+            //~ [xArr[DEP], yArr[DEP], 'point { size: 18; shape-type: star; fill-color: #795548; }']
+        //~ ]);
 
         /*
         data.addRows(7);
@@ -362,7 +370,15 @@ fileOutput.addEventListener('change', function(e) {
           height: 1024,
           legend: true,
           annotationsWidth: 5,
-          pointSize: 5
+          pointSize: 15,
+          //~ series: {
+                //~ 0: { pointShape: 'star' },
+                //~ 1: { pointShape: 'triangle' },
+                //~ 2: { pointShape: 'square' },
+                //~ 3: { pointShape: 'diamond' },
+                //~ 4: { pointShape: 'star' },
+                //~ 5: { pointShape: 'polygon' }
+            //~ }
         };
 
 
@@ -381,6 +397,7 @@ fileOutput.addEventListener('change', function(e) {
         function drawClassicChart() {
           var classicChart = new google.visualization.LineChart(chartDiv);
           classicChart.draw(data, classicOptions);
+          //~ classicChart.draw(depotData, classicOptions);
           //button.innerText = 'Change to Material';
           //button.onclick = drawMaterialChart;
         }
@@ -490,7 +507,7 @@ fileOutput.addEventListener('change', function(e) {
 
 <br>
 
-v1.0.
+v1.2.
 
 </body>
 </html>
