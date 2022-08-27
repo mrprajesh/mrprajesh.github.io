@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2022-04-12T16:00:41+05:30</updated><subtitle></subtitle><entry><title>Guest Lecture On GPU course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/guest-lecture-on-gpu-course.html" rel="alternate"></link><published>2022-04-12T16:00:41+05:30</published><updated>2022-04-12T16:00:41+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2022-04-12:/~mrprajesh/guest-lecture-on-gpu-course.html</id><summary type="html">&lt;p&gt;&lt;a href="http://www.cse.iitm.ac.in/~rupesh/"&gt;Rupesh&lt;/a&gt; had invited me to deliver a Guest Lecture on his &lt;a href="http://www.cse.iitm.ac.in/~rupesh/teaching/gpu/jan22/"&gt;course&lt;/a&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/all.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2022-08-22T23:02:09+05:30</updated><subtitle></subtitle><entry><title>First reviewing experience</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/first-reviewing-experience.html" rel="alternate"></link><published>2022-08-22T23:02:09+05:30</published><updated>2022-08-22T23:02:09+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2022-08-22:/~mrprajesh/first-reviewing-experience.html</id><summary type="html">&lt;p&gt;With Rupesh's invitation to subreview a HiPC paper and his tips (below) started my 1st offical review.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Think on these lines:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critic&lt;/strong&gt;: Some technical points you could be suspicious / careful about. Point those out, mention your reason for suspicion (without calling it suspicion) and ask.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audience&lt;/strong&gt;: Some points you are …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;With Rupesh's invitation to subreview a HiPC paper and his tips (below) started my 1st offical review.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Think on these lines:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Critic&lt;/strong&gt;: Some technical points you could be suspicious / careful about. Point those out, mention your reason for suspicion (without calling it suspicion) and ask.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audience&lt;/strong&gt;: Some points you are curious about. Ask those.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advisor&lt;/strong&gt;: Some points you can suggest to be done better.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborator&lt;/strong&gt;: And then some points may come from a high level thinking. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Rajesh finished the review in 4-5 days. Feels:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It was a different experience I thoroughly enjoyed it. But a time-consuming process. 
+..
+I had to night out to type in all or full parts -- Ideally, I should have typed in as read. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Rupesh points&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;.. as we read in document viewer highlight.. writing comments on highlighted portions as we review. 
+.. then go through it again to type out my review, which allows me to reorder the comments based on importance 
+and also to &lt;strong&gt;connect&lt;/strong&gt; some comments which are related (e.g., a certain advantage mentioned in theory is not brought out in experiments).
+..The review becomes more important when we are negative. It is crucial to not only highlight issues, 
+but also to suggest ways to improve the work / paper (&lt;strong&gt;constructive criticism&lt;/strong&gt;), 
+so that the authors have a better chance of acceptance in their next submission. 
+The authors then &lt;strong&gt;appreciate&lt;/strong&gt; the review process / conference better, and also &lt;strong&gt;reciprocate&lt;/strong&gt; when they get to review.&lt;/p&gt;
+&lt;/blockquote&gt;</content></entry><entry><title>TS submission</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/ts-submission.html" rel="alternate"></link><published>2022-08-14T14:02:30+05:30</published><updated>2022-08-14T14:02:30+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2022-08-14:/~mrprajesh/ts-submission.html</id><summary type="html">&lt;p&gt;We submitted to Transportation Science -  DIMACS special issue.
+This submission was a different learning experience. ..writing up such that we project whatever good 
+things we had and squeeze out even the tiny benefits from our approach 
+-- was a nice learning experience. 
+I had (and still have) the problem of writing …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We submitted to Transportation Science -  DIMACS special issue.
+This submission was a different learning experience. ..writing up such that we project whatever good 
+things we had and squeeze out even the tiny benefits from our approach 
+-- was a nice learning experience. 
+I had (and still have) the problem of writing my thoughts from my mind 
+coherently, whereas I could explain them orally. I usually get 
+distracted due to the typos I make, formatting and spelling mistakes, 
+latex syntax errors+warnings and would miss the plot.&lt;/p&gt;
+&lt;p&gt;But, the Grammarly Chrome add-on helped me write many sentences and 
+spellings correctly (directly on overleaf in place), which otherwise 
+I would have written incorrectly. &lt;/p&gt;
+&lt;p&gt;Rupesh says&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Alternative is to use a two-pass approach: Simply write main points in the first pass. The second pass can expand. Since the first pass is over, getting into typos will not deviate you from the larger context.&lt;/p&gt;
+&lt;/blockquote&gt;</content></entry><entry><title>Guest Lecture On GPU course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/guest-lecture-on-gpu-course.html" rel="alternate"></link><published>2022-04-12T16:00:41+05:30</published><updated>2022-04-12T16:00:41+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2022-04-12:/~mrprajesh/guest-lecture-on-gpu-course.html</id><summary type="html">&lt;p&gt;&lt;a href="http://www.cse.iitm.ac.in/~rupesh/"&gt;Rupesh&lt;/a&gt; had invited me to deliver a Guest Lecture on his &lt;a href="http://www.cse.iitm.ac.in/~rupesh/teaching/gpu/jan22/"&gt;course&lt;/a&gt;
 I did my best with whatever time I had. Thanks Rupesh for the opportunity.&lt;/p&gt;
 &lt;p&gt;My lecture details&lt;/p&gt;
 &lt;ul&gt;
