@@ -74,10 +74,10 @@
 <h2 id="implementations"><a class="toclink" href="#implementations">Implementations</a></h2>
 <p>There are several exact as well as approximation algorithms for Minimal Steiner tree.
 Lets start with the approximation algorithm. The below are few of our implementations:
-<em> MST/Greedy Algorithm - 2 approx
-</em> Sticky tongue Algorithm 
-<em> Snake tongue Algorithm
-</em> Rand Sticky tongue
+* MST/Greedy Algorithm - 2 approx
+* Sticky tongue Algorithm 
+* Snake tongue Algorithm
+* Rand Sticky tongue
 * Rand Snake tongue</p>
 <h3 id="code"><a class="toclink" href="#code">Code</a></h3>
 <ul>
@@ -108,10 +108,13 @@ Lets start with the approximation algorithm. The below are few of our implementa
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
     mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+
+    var configscript = document.createElement('script');
+    configscript.type = 'text/x-mathjax-config';
+    configscript[(window.opera ? "innerHTML" : "text")] =
         "MathJax.Hub.Config({" +
         "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
         "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
         "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
         "    displayAlign: '"+ align +"'," +
@@ -125,6 +128,8 @@ Lets start with the approximation algorithm. The below are few of our implementa
         "        preview: 'TeX'," +
         "    }, " +
         "    'HTML-CSS': { " +
+        "        availableFonts: ['STIX', 'TeX']," +
+        "        preferredFont: 'STIX'," +
         "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
         "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
         "    }, " +
@@ -145,6 +150,8 @@ Lets start with the approximation algorithm. The below are few of our implementa
                 "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
             "});" +
         "}";
+
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 </script>
