@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - Learning Curve</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/learning-curve.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-18T12:28:12+05:30</updated><subtitle></subtitle><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-09-03T21:48:34+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - Learning Curve</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/" rel="alternate"></link><link href="https://www.cse.iitm.ac.in/~mrprajesh/feeds/learning-curve.atom.xml" rel="self"></link><id>https://www.cse.iitm.ac.in/~mrprajesh/</id><updated>2019-09-18T12:28:12+05:30</updated><entry><title>My Learnings</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/my-learnings.html" rel="alternate"></link><published>2019-08-14T17:00:00+05:30</published><updated>2019-09-03T21:48:34+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2019-08-14:/~mrprajesh/my-learnings.html</id><summary type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
 &lt;strong&gt;Learning&lt;/strong&gt;  begins from the day we are born till the our last breath. 
 I am making a note of whatever I had(/have been) learnt(/learning) 
 during my stay at IIT Madras.  Everyone you see in this world …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Some say learning stops when you grow old. But, according to me 
@@ -87,7 +87,7 @@ listen.  &lt;/p&gt;
     (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>Learning to Teach CS1100/CS1111</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/learning-to-teach-cs1100cs1111.html" rel="alternate"></link><published>2018-09-18T12:28:12+05:30</published><updated>2019-09-18T12:28:12+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-18:/~mrprajesh/learning-to-teach-cs1100cs1111.html</id><summary type="html">&lt;h2 id="terminal"&gt;&lt;a class="toclink" href="#terminal"&gt;Terminal&lt;/a&gt;&lt;/h2&gt;
+&lt;/script&gt;</content><category term="Learning Curve"></category></entry><entry><title>Learning to Teach CS1100/CS1111</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/learning-to-teach-cs1100cs1111.html" rel="alternate"></link><published>2018-09-18T12:28:12+05:30</published><updated>2019-09-18T12:28:12+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-18:/~mrprajesh/learning-to-teach-cs1100cs1111.html</id><summary type="html">&lt;h2 id="terminal"&gt;&lt;a class="toclink" href="#terminal"&gt;Terminal&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Open &lt;code&gt;terminal&lt;/code&gt; after pressing super key or using shortcut &lt;code&gt;CTRL+ALT+T&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;ls&lt;/code&gt; - list the files in the current directory&lt;/li&gt;
@@ -148,7 +148,7 @@ listen.  &lt;/p&gt;
   *b = *a - *b;
   *a = *a - *b;
 }
-&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Git and Github</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/git-and-github.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T13:32:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/git-and-github.html</id><summary type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Learning Curve"></category></entry><entry><title>Git and Github</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/git-and-github.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T13:32:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/git-and-github.html</id><summary type="html">&lt;p&gt;Git is a cool versioning manager and Github is awesome. You could
 manage large open/close software projects. &lt;/p&gt;
 &lt;h1 id="to-install"&gt;&lt;a class="toclink" href="#to-install"&gt;To install&lt;/a&gt;&lt;/h1&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get install git
@@ -182,9 +182,9 @@ manage large open/close software projects. &lt;/p&gt;
 &lt;h2 id="one-time-setup"&gt;&lt;a class="toclink" href="#one-time-setup"&gt;One time setup&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;As all the commits are logged with the username and email. It is a must
 to setup this. used &lt;code&gt;global&lt;/code&gt; as I wanted the same setup for all my repos.&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git config --global user.name &amp;quot;YOUR FULL NAME&amp;quot;
-git config --global user.email &amp;quot;YOUR-EMAIl-ID@gmail.com&amp;quot;
-&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Linux</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/linux.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/linux.html</id><summary type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="k"&gt;global&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;user&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="ss"&gt;&amp;quot;YOUR FULL NAME&amp;quot;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
+&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;config&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c1"&gt;--global user.email &amp;quot;YOUR-EMAIl-ID@gmail.com&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Learning Curve"></category></entry><entry><title>Linux</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/linux.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/linux.html</id><summary type="html">&lt;p&gt;This is where I am logging everything I know about Linux. There are so
 many distros out there. Whatever here works on debian based system like
 Ubuntu or Linux Mint, and might need a slight tinkering for other 
 distros.&lt;/p&gt;
@@ -206,11 +206,9 @@ Some times, you may need to do the below.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;chmod +x installer-file.deb&lt;/code&gt; - Give execute permission&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dpkg -i installer-file.deb&lt;/code&gt; - You may need to use &lt;code&gt;sudo&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>Shell Scripting</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/shell-scripting.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/shell-scripting.html</id><summary type="html">&lt;h3 id="prints-the-env-variable-name-path"&gt;&lt;a class="toclink" href="#prints-the-env-variable-name-path"&gt;Prints the env variable name PATH.&lt;/a&gt;&lt;/h3&gt;
+&lt;/ul&gt;</content><category term="Learning Curve"></category></entry><entry><title>Shell Scripting</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/shell-scripting.html" rel="alternate"></link><published>2018-09-16T12:20:58+05:30</published><updated>2019-09-16T12:20:58+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-09-16:/~mrprajesh/shell-scripting.html</id><content type="html">&lt;h3 id="prints-the-env-variable-name-path"&gt;&lt;a class="toclink" href="#prints-the-env-variable-name-path"&gt;Prints the env variable name PATH.&lt;/a&gt;&lt;/h3&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $PATH
-&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h3 id="prints-the-env-variable-name-path"&gt;&lt;a class="toclink" href="#prints-the-env-variable-name-path"&gt;Prints the env variable name PATH.&lt;/a&gt;&lt;/h3&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;echo $PATH
-&lt;/pre&gt;&lt;/div&gt;</content></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2 id="first-lab"&gt;&lt;a class="toclink" href="#first-lab"&gt;First Lab&lt;/a&gt;&lt;/h2&gt;
+&lt;/pre&gt;&lt;/div&gt;</content><category term="Learning Curve"></category></entry><entry><title>Handling Lab Course</title><link href="https://www.cse.iitm.ac.in/~mrprajesh/handling-lab-course.html" rel="alternate"></link><published>2018-01-23T20:15:51+05:30</published><updated>2019-08-14T13:50:02+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:www.cse.iitm.ac.in,2018-01-23:/~mrprajesh/handling-lab-course.html</id><summary type="html">&lt;h2 id="first-lab"&gt;&lt;a class="toclink" href="#first-lab"&gt;First Lab&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;These are things we must be doing from different stake holders.&lt;/p&gt;
 &lt;p&gt;Instructor:&lt;/p&gt;
 &lt;ul&gt;
@@ -237,4 +235,4 @@ Some times, you may need to do the below.&lt;/p&gt;
 &lt;h2 id="lab-ta"&gt;&lt;a class="toclink" href="#lab-ta"&gt;Lab TA&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id="ack"&gt;&lt;a class="toclink" href="#ack"&gt;Ack&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Handling lab course was a challenge. Hackerrank Contest + Moodle. 
-Learnt a lot as a Teaching Assistant for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;CS2810&lt;/a&gt;&lt;/p&gt;</content></entry></feed>
+Learnt a lot as a Teaching Assistant for &lt;a href="https://www.cse.iitm.ac.in/~rupesh/teaching/ooaia/jan18/"&gt;CS2810&lt;/a&gt;&lt;/p&gt;</content><category term="Learning Curve"></category></entry></feed>
