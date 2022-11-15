@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://mrprajesh.co.in/blog/sitemap.xml
