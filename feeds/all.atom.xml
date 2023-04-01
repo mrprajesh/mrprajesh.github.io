@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://mrprajesh.co.in/" rel="alternate"></link><link href="https://mrprajesh.co.in/feeds/all.atom.xml" rel="self"></link><id>https://mrprajesh.co.in/</id><updated>2022-08-22T23:02:09+05:30</updated><entry><title>First reviewing experience</title><link href="https://mrprajesh.co.in/first-reviewing-experience.html" rel="alternate"></link><published>2022-08-22T23:02:09+05:30</published><updated>2022-08-22T23:02:09+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2022-08-22:/first-reviewing-experience.html</id><summary type="html">&lt;p&gt;With Rupesh's invitation to subreview a HiPC paper and his tips (below) started my 1st offical review.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://mrprajesh.co.in/" rel="alternate"></link><link href="https://mrprajesh.co.in/feeds/all.atom.xml" rel="self"></link><id>https://mrprajesh.co.in/</id><updated>2023-04-01T12:38:25+05:30</updated><entry><title>Paper at GECCO23</title><link href="https://mrprajesh.co.in/paper-at-gecco23.html" rel="alternate"></link><published>2023-04-01T12:38:25+05:30</published><updated>2023-04-01T12:38:25+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2023-04-01:/paper-at-gecco23.html</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Our paper title "Effective Parallelization of the Vehicle Routing Problem" is accepted at 
+Genetic and Evolutionary Computation Conference (GECCO '23), July 15--19, 2023, Lisbon, Portugal
+My co-authors are: Somesh Singh, Prof. Rupesh Nasre and Prof. N.S.Narayanaswamy. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here are my thoughts/experiences which might help current/future students.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TL …&lt;/strong&gt;&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;Our paper title "Effective Parallelization of the Vehicle Routing Problem" is accepted at 
+Genetic and Evolutionary Computation Conference (GECCO '23), July 15--19, 2023, Lisbon, Portugal
+My co-authors are: Somesh Singh, Prof. Rupesh Nasre and Prof. N.S.Narayanaswamy. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here are my thoughts/experiences which might help current/future students.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;TL; DR&lt;/strong&gt;. Participating in implementation challenges and pairing up helps research.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This work evolved due to our participation in &lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt;DIMACS&lt;/a&gt;&lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt; Implementation Challenge&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;- participating in such challenges helps us find the right problem to work on. //Important step for a research scholar.&lt;/p&gt;
+&lt;p&gt;- Organisors curate the more challenging and more relevant inputs. &lt;/p&gt;
+&lt;p&gt;- Irrespective of competition results, it is a win-win for research. If we win, we will get recognised. If we do not, we get the baselines (winners' solution code) &lt;/p&gt;
+&lt;p&gt;- In either case, if we continue to work on it further, we will have a paper out of it.&lt;/p&gt;
+&lt;p&gt;- Our earlier Steiner work (a result of another implementation Challenge -- &lt;a href="https://pacechallenge.org/"&gt;PACE&lt;/a&gt;) had an excellent&lt;a href="https://www.optil.io/optilion/problem/3025#tab-4"&gt; leaderboard&lt;/a&gt; that quickly evaluated any new idea/heuristics we implemented. &lt;/p&gt;
+&lt;p&gt;- I wish we/I have a personal dashboard for every research problem we/I work on that also logs (with some scores/metrics) for every new heuristic/code version we attempt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pairing up on research works (within and outside the group) always help. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;- We had many brainstorming sessions (with/without advisors) with Somesh.&lt;/p&gt;
+&lt;p&gt;- We had come up with several heuristics/ideas from those sessions. At times debugging too. &lt;/p&gt;
+&lt;p&gt;- That can push (to perform more) and pulls-up (whenever we feel low) each other. //It happened many times to me. Thanks a lot, Somesh.&lt;/p&gt;
+&lt;p&gt;- If everything goes well, we will have one more paper (at least) out of this CVRP work.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>First reviewing experience</title><link href="https://mrprajesh.co.in/first-reviewing-experience.html" rel="alternate"></link><published>2022-08-22T23:02:09+05:30</published><updated>2022-08-22T23:02:09+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2022-08-22:/first-reviewing-experience.html</id><summary type="html">&lt;p&gt;With Rupesh's invitation to subreview a HiPC paper and his tips (below) started my 1st offical review.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Think on these lines:&lt;/p&gt;
 &lt;/blockquote&gt;
