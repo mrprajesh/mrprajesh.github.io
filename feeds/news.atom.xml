@@ -2,22 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M - News</title><link href="https://mrprajesh.co.in/" rel="alternate"></link><link href="https://mrprajesh.co.in/feeds/news.atom.xml" rel="self"></link><id>https://mrprajesh.co.in/</id><updated>2023-04-01T13:24:23+05:30</updated><entry><title>How to do Systems's Research - my perspective.</title><link href="https://mrprajesh.co.in/how-to-do-systemss-research-my-perspective.html" rel="alternate"></link><published>2023-04-01T13:24:23+05:30</published><updated>2023-04-01T13:24:23+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2023-04-01:/how-to-do-systemss-research-my-perspective.html</id><summary type="html">&lt;p&gt;Here are my thoughts/experiences which might help current/future students.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;. Participating in implementation challenges and pairing up helps research.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;This work evolved due to our participation in &lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt;DIMACS&lt;/a&gt;&lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt; Implementation Challenge&lt;/a&gt;. 
-   - participating in such challenges helps us find the right problem to work on. //Important step for a …&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Here are my thoughts/experiences which might help current/future students.&lt;/p&gt;
+&lt;li&gt;This work evolved due to our participation in &lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt;DIMACS&lt;/a&gt;&lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt; Implementation Challenge&lt;/a&gt;. &lt;ul&gt;
+&lt;li&gt;participating in such challenges helps us find the right problem to work on. //Important step for a …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;Here are my thoughts/experiences which might help current/future students.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;. Participating in implementation challenges and pairing up helps research.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;This work evolved due to our participation in &lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt;DIMACS&lt;/a&gt;&lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt; Implementation Challenge&lt;/a&gt;. 
-   - participating in such challenges helps us find the right problem to work on. //Important step for a research scholar.
-   - Organisors curate the more challenging and more relevant inputs. 
-   - Irrespective of competition results, it is a win-win for research. If we win, we will get recognised. If we do not, we get the baselines (winners' solution code) 
-   - In either case, if we continue to work on it further, we will have a paper out of it.
-   - Our earlier Steiner work (a result of another implementation Challenge -- &lt;a href="https://pacechallenge.org/"&gt;PACE&lt;/a&gt;) had an excellent&lt;a href="https://www.optil.io/optilion/problem/3025#tab-4"&gt; leaderboard&lt;/a&gt; that quickly evaluated any new idea/heuristics we implemented. 
-   - I wish we/I have a personal dashboard for every research problem we/I work on that also logs (with some scores/metrics) for every new heuristic/code version we attempt.&lt;/li&gt;
-&lt;li&gt;Pairing up on research works (within and outside the group) always help. 
-   - We had many brainstorming sessions (with/without advisors) with Somesh.
-   - We had come up with several heuristics/ideas from those sessions. At times debugging too. 
-   - That can push (to perform more) and pulls-up (whenever we feel low) each other. //It happened many times to me. Thanks a lot, Somesh.
-   - If everything goes well, we will have one more paper (at least) out of this CVRP work.&lt;/li&gt;
+&lt;li&gt;This work evolved due to our participation in &lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt;DIMACS&lt;/a&gt;&lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt; Implementation Challenge&lt;/a&gt;. &lt;ul&gt;
+&lt;li&gt;participating in such challenges helps us find the right problem to work on. //Important step for a research scholar.&lt;/li&gt;
+&lt;li&gt;Organisers curate the more challenging and more relevant inputs. &lt;/li&gt;
+&lt;li&gt;Irrespective of competition results, it is a win-win for research. If we win, we will get recognised. If we do not, we get the baselines (winners' solution code) &lt;/li&gt;
+&lt;li&gt;In either case, if we continue to work on it further, we will have a paper out of it.&lt;/li&gt;
+&lt;li&gt;Our earlier Steiner work (a result of another implementation Challenge -- &lt;a href="https://pacechallenge.org/"&gt;PACE&lt;/a&gt;) had an excellent&lt;a href="https://www.optil.io/optilion/problem/3025#tab-4"&gt; leaderboard&lt;/a&gt; that quickly evaluated any new idea/heuristics we implemented. &lt;/li&gt;
+&lt;li&gt;I wish we/I have a personal dashboard for every research problem we/I work on that also logs (with some scores/metrics) for every new heuristic/code version we attempt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Pairing up on research works (within and outside the group) always help. &lt;ul&gt;
+&lt;li&gt;We had many brainstorming sessions (with/without advisors) with Somesh.&lt;/li&gt;
+&lt;li&gt;We had come up with several heuristics/ideas from those sessions. At times debugging too. &lt;/li&gt;
+&lt;li&gt;That can push (to perform more) and pulls-up (whenever we feel low) each other. //It happened many times to me. &lt;/li&gt;
+&lt;li&gt;If everything goes well, we will have one more paper (at least) out of this CVRP work.&lt;/li&gt;
+&lt;li&gt;Thanks a lot, Somesh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content><category term="News"></category></entry><entry><title>Paper at GECCO23</title><link href="https://mrprajesh.co.in/paper-at-gecco23.html" rel="alternate"></link><published>2023-04-01T12:38:25+05:30</published><updated>2023-04-01T12:38:25+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2023-04-01:/paper-at-gecco23.html</id><content type="html">&lt;blockquote&gt;
 &lt;p&gt;Our paper title "Effective Parallelization of the Vehicle Routing Problem" is accepted at 
 Genetic and Evolutionary Computation Conference (GECCO '23), July 15--19, 2023, Lisbon, Portugal
