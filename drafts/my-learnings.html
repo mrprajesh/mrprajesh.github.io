@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Grids! - Rajesh Pandian M </title>
+        <title>My Learnings - Rajesh Pandian M </title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="../theme/css/main.css" type="text/css" />
         <link href="../" type="application/atom+xml" rel="alternate" title="Rajesh Pandian M ATOM Feed" />
@@ -46,13 +46,17 @@
 
 <section id="content" class="body">
 <article>
-        <header> <h1 class="entry-title"><a href="drafts/grids.html"
-        rel="bookmark" title="Permalink to Grids!">Grids!</a></h1> <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mrprajesh">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+        <header> <h1 class="entry-title"><a href="drafts/my-learnings.html"
+        rel="bookmark" title="Permalink to My Learnings">My Learnings</a></h1> <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="mrprajesh">Tweet</a><script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
  </header>
         <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2017-12-20T15:15:38+05:30">
-               Created : 20-Dec-2017
+        <abbr class="published" title="2019-08-14T17:00:00+05:30">
+               Created : 14-Aug-2019
+        </abbr>
+        <br>
+        <abbr class="modified" title="2019-09-03T21:48:34+05:30">
+               Updated : 03-Sep-2019
         </abbr>
 		
         <address class="vcard author">
@@ -60,85 +64,31 @@
         </address>
 <p>In <a href="../category/learning-curve.html">Learning Curve</a>. </p>
 </p></footer><!-- /.post-info --><!-- /.post-info -->
-        <h2 id="abstract"><a class="toclink" href="#abstract">Abstract</a></h2>
-<p>The aim is to solve the NP-hard problems(in general graphs) on grids.
-Grid is smaller class graph with a nice structural property. 
-It is a planar, bipartite and non-chordal graph. 
-A <span class="math">\(n\)</span> vertex grid has a treewidth <span class="math">\(\sqrt n\)</span>. 
-As we know that the grid can be recognised in linear time, what other problems
-on grid can be solved in linear time. 
-This is one of the motivation for writing this article. </p>
-<h1 id="problem-statement"><a class="toclink" href="#problem-statement">Problem statement</a></h1>
+        <p>Some say learning stops when you grow old. But, according to me 
+<strong>Learning</strong>  begins from the day we are born till the our last breath. 
+I am making a note of whatever I had(/have been) learnt(/learning) 
+during my stay at IIT Madras.  Everyone you see in this world are here 
+to teach you something new provided you are ready to listen and learn. 
+Even a 2 year old kid can teach you provided you are patient and will to
+listen.  </p>
+<p><mark> Largely outdated and I've moved to <a href="https://mrprajesh.co.in/blog">Searchable TechBlog</a> for easy and my quicker reference. </mark></p>
+<p>The following are :</p>
 <ul>
-<li>Input: Finite square grid on <span class="math">\(m\)</span> rows and <span class="math">\(n\)</span> columns.</li>
-<li>Output: Minimum Vertex cover(MVC), Maximum Independant set(MIS), 
-Minimum Dominating set(MDS) and Minimum Fill-in.</li>
+<li><a href="{filename}/learn/linux.md">Linux</a></li>
+<li><a href="{filename}/learn/shell.md">Shell scripting</a></li>
+<li>awk/sed</li>
+<li>Makefile</li>
+<li><a href="{filename}/learn/git.md">Git</a> </li>
+<li>Markdown</li>
+<li><span class="math">\(\LaTeX\)</span></li>
+<li>Geany IDE</li>
+<li><a href="https://gist.github.com/mrprajesh/352cbe661ee27a6b4627ae72d89479e6">nvprof</a></li>
+<li><a href="{filename}/learn/labHacker.md">Handling a Lab course</a></li>
+<li>GrenMarl</li>
+<li>Pelican</li>
+<li>...</li>
 </ul>
-<h2 id="introduction"><a class="toclink" href="#introduction">Introduction</a></h2>
-<p>Problems that are hard on general graphs
-might be solvable in polynomial time in smaller class of graphs. 
-If the problem is NP-hard on some <em>smaller class</em> of graphs, then
-the problem is also NP hard on <em>arbitrary</em> graphs. Whereas,
-if the problem is NP hard on arbitrary graphs, 
-then it need not be hard on smaller class of graphs.</p>
-<h2 id="preliminaries-and-notations"><a class="toclink" href="#preliminaries-and-notations">Preliminaries and Notations</a></h2>
-<p>Given a <span class="math">\(m \times n\)</span>- square grid and let the graph corresponding to it is <span class="math">\(G(V,E)\)</span>.
-The total number of vertices and edges of <span class="math">\(G\)</span> is <span class="math">\(|V|\)</span> and <span class="math">\(|E|\)</span> respectively. 
-<span class="math">\(|V|=mn\)</span> and <span class="math">\(|E|=m(n-1)+n(m-1)=2mn-(m+n)\)</span>. 
-In case the rows and columns are equal i.e <span class="math">\(m=n\)</span> then <span class="math">\(|V|=n^2\)</span> and <span class="math">\(|E|=2n^2-2n\)</span>.
-Let the vertex set <span class="math">\(V = \{0,1, \dots, n^2-1 \}\)</span> 
-    represents the vertex numbers from top left
-to the right bottom of the grid.</p>
-<h2 id="algorithms-on-grid"><a class="toclink" href="#algorithms-on-grid">Algorithms on grid.</a></h2>
-<h3 id="minimum-vertex-covermvc-problem-and-maximum-independent-set-mis-problem"><a class="toclink" href="#minimum-vertex-covermvc-problem-and-maximum-independent-set-mis-problem">Minimum vertex cover(MVC) Problem and Maximum Independent Set (MIS) Problem</a></h3>
-<p>In bipartite graph it is well known that the size of minimum vertex cover 
-    is equal to the size of the maximum carnality matching. 
-This is the most celebrated König's theorem.
-The fastest algorithm known (to the best of our knowledge) for maximum
-    cardinality matching on bipartite graphs runs in <span class="math">\(O(m \sqrt n )\)</span> time 
-Here, <span class="math">\(m\)</span> and <span class="math">\(n\)</span> represents edges and nodes respectively.
-Therefore, the same algorithm can be used to find the MVC on grids.
-However we have simpler algorithm which runs linear time.
-It does not need to look at the graph to output the MVC.
-The independent set and vertex cover are dual to each other. 
-If we compute the Minimum vertex cover(MVC) say <span class="math">\(S \subset V\)</span> 
-    then the Maximum Independent Set(MIS) is <span class="math">\(V \setminus S\)</span> and it is straight forward.</p>
-<h4 id="vertex-cover-algorithm"><a class="toclink" href="#vertex-cover-algorithm">Vertex Cover algorithm</a></h4>
-<ul>
-<li><span class="math">\(S = \emptyset\)</span></li>
-<li>for(int i=0; i&lt;  m; i++){<ul>
-<li>for(int j=0; j&lt; n; j++){<ul>
-<li>if ( (i+j) % 2 == 1) { // if the sum is an odd value<ul>
-<li><span class="math">\(S = S \cup \{ v_{i+j} \}\)</span></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h4 id="correctness-and-analysis"><a class="toclink" href="#correctness-and-analysis">Correctness and analysis</a></h4>
-<p><strong>Claim</strong> : Let <span class="math">\(G(V,E)\)</span> be a <span class="math">\(m,n\)</span> grid and <span class="math">\(S \subseteq V\)</span> be a vertex cover of <span class="math">\(G\)</span> with the following property: 
-If for each edge <span class="math">\(e \in E\)</span> there exactly one vertex in <span class="math">\(S\)</span> that covers <span class="math">\(e\)</span>
-then, <span class="math">\(S\)</span> is a MVC of <span class="math">\(G\)</span> </p>
-<p><strong>Proof</strong> : This claim says it is a minimal vertex cover.</p>
-<h4 id="size-of-the-vertex-cover"><a class="toclink" href="#size-of-the-vertex-cover">Size of the vertex Cover</a></h4>
-<ul>
-<li>The size of the vertex cover is <span class="math">\(\lfloor \frac{mn}{2} \rfloor\)</span></li>
-<li>
-<p>If <span class="math">\(n\)</span> and <span class="math">\(m\)</span> are both odd number only then the floor would come into picture.</p>
-</li>
-<li>
-<p><em>Observation</em> If any one of <span class="math">\(n\)</span> or <span class="math">\(m\)</span> is an even number then the MVC and MIS is same.</p>
-</li>
-<li>Therefore if <span class="math">\(n\)</span> and <span class="math">\(m\)</span> are both odd, then MIS is V <span class="math">\(\setminus S\)</span>.</li>
-</ul>
-<h3 id="minimum-dominating-setmds-problem"><a class="toclink" href="#minimum-dominating-setmds-problem">Minimum Dominating Set(MDS) Problem</a></h3>
-<p>The main observations </p>
-<h3 id="minimum-fill-in-problem"><a class="toclink" href="#minimum-fill-in-problem">Minimum Fill-in Problem</a></h3>
-<p>Claim: There exits a tree decomposition for a graph <span class="math">\(G(V,E)\)</span>,
-such that completing the bags yeilds the minimum fill in edges. </p>
-<h2 id="conclusion"><a class="toclink" href="#conclusion">Conclusion</a></h2>
+<p>// Todo: will point more links as I update!</p>
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var align = "center",
         indent = "0em",
