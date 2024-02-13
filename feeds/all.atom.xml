@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://mrprajesh.co.in/" rel="alternate"></link><link href="https://mrprajesh.co.in/feeds/all.atom.xml" rel="self"></link><id>https://mrprajesh.co.in/</id><updated>2023-04-01T13:24:23+05:30</updated><entry><title>How to do Systems's Research - my perspective.</title><link href="https://mrprajesh.co.in/how-to-do-systemss-research-my-perspective.html" rel="alternate"></link><published>2023-04-01T13:24:23+05:30</published><updated>2023-04-01T13:24:23+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2023-04-01:/how-to-do-systemss-research-my-perspective.html</id><summary type="html">&lt;p&gt;Here are my thoughts/experiences which might help current/future students.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rajesh Pandian M</title><link href="https://mrprajesh.co.in/" rel="alternate"></link><link href="https://mrprajesh.co.in/feeds/all.atom.xml" rel="self"></link><id>https://mrprajesh.co.in/</id><updated>2023-04-01T13:24:23+05:30</updated><subtitle></subtitle><entry><title>How to do Systems's Research - my perspective.</title><link href="https://mrprajesh.co.in/how-to-do-systemss-research-my-perspective.html" rel="alternate"></link><published>2023-04-01T13:24:23+05:30</published><updated>2023-04-01T13:24:23+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2023-04-01:/how-to-do-systemss-research-my-perspective.html</id><summary type="html">&lt;p&gt;Here are my thoughts/experiences which might help current/future students.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;. Participating in implementation challenges and pairing up helps research.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;This work evolved due to our participation in &lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt;DIMACS&lt;/a&gt;&lt;a href="http://dimacs.rutgers.edu/programs/challenge/"&gt; Implementation Challenge&lt;/a&gt;. &lt;ul&gt;
@@ -110,22 +110,20 @@ The award ceremony happened on 23-Jan-2020 at CS25. The awards were present by &
 &lt;/ul&gt;
 &lt;p&gt;This is &lt;code&gt;C/C++&lt;/code&gt; language. Do you see the highlighting of &lt;code&gt;code blocks&lt;/code&gt;.
 It is due to &lt;a href="https://python-markdown.github.io/extensions/code_hilite/"&gt;this&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="cp"&gt;#include&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="cp"&gt;#include&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="cpf"&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;&lt;/span&gt;
 &lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(){&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello There!&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;This is &lt;code&gt;bash&lt;/code&gt; or &lt;code&gt;shell&lt;/code&gt;&lt;/p&gt;
-&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;cd&lt;/span&gt; ../tamil/
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;cd&lt;/span&gt; ../tamil/
 rajz@LordOfWarriors:~$ ls
 Desktop  Documents  Downloads  Dropbox  Music  Pictures  Public  Templates  Videos
 rajz@LordOfWarriors:~$ &lt;span class="nb"&gt;pwd&lt;/span&gt;
 /home/tamil
-&lt;/pre&gt;&lt;/div&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;okay, more later. Tata.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>ReSubmission</title><link href="https://mrprajesh.co.in/resubmission.html" rel="alternate"></link><published>2019-08-07T17:36:00+05:30</published><updated>2019-08-07T17:36:00+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2019-08-07:/resubmission.html</id><content type="html">&lt;p&gt;Re-submitted our work to a conference!&lt;/p&gt;</content><category term="News"></category></entry><entry><title>First Submission to a Conf!</title><link href="https://mrprajesh.co.in/first-submission-to-a-conf.html" rel="alternate"></link><published>2019-04-23T17:11:00+05:30</published><updated>2019-04-23T17:11:00+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2019-04-23:/first-submission-to-a-conf.html</id><content type="html">&lt;p&gt;Submitted our work to a conference. More later!&lt;/p&gt;</content><category term="News"></category></entry><entry><title>CALDAM Pre-Conference School!</title><link href="https://mrprajesh.co.in/caldam-pre-conference-school.html" rel="alternate"></link><published>2019-02-12T09:15:38+05:30</published><updated>2019-02-12T09:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2019-02-12:/caldam-pre-conference-school.html</id><summary type="html">&lt;p&gt;Rajesh has attended the &lt;a href="http://cse.iitkgp.ac.in/conf/CALDAM/conferenceschool.php?1550837734"&gt;CALDAM Pree-conference school 2019 &lt;/a&gt; which happened at IIT Kharagpur between Feb 11-12 2019. It is also called as CALDAM Indo-Italian Pre-Conference School on Algorithms and Combinatorics. There were many good speakers and their talk we very good. Especially Prof. Anil Maheswari, Prof. Ajit Diwan, Prof. Alberto …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Rajesh has attended the &lt;a href="http://cse.iitkgp.ac.in/conf/CALDAM/conferenceschool.php?1550837734"&gt;CALDAM Pree-conference school 2019 &lt;/a&gt; which happened at IIT Kharagpur between Feb 11-12 2019. It is also called as CALDAM Indo-Italian Pre-Conference School on Algorithms and Combinatorics. There were many good speakers and their talk we very good. Especially Prof. Anil Maheswari, Prof. Ajit Diwan, Prof. Alberto Policriti and Dr. Luca Pappalardo. Travel, Boarding and lodging was provided by IITKGP. Good to see Prof. Ghosh's initiative. Next CALDAM is at Hyderabad.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>NVIDIA-IITM Hackathon 2019!</title><link href="https://mrprajesh.co.in/nvidia-iitm-hackathon-2019.html" rel="alternate"></link><published>2019-01-28T22:15:38+05:30</published><updated>2019-01-28T22:15:38+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2019-01-28:/nvidia-iitm-hackathon-2019.html</id><content type="html">&lt;p&gt;Rajesh has attended the &lt;a href="http://www.cse.iitm.ac.in/~rupesh/events/nvidia-iitm-hackathon-2019/"&gt;NVIDIA-IITM Hackathon&lt;/a&gt; which happened at CSE department, IIT Madras between Jan 24+25 2019. 
 Bharath Kumar was mentoring us. We learned many stuffs including OpenACC, CUDA, Profiling CPU/GPU code ,etc. More details later.&lt;/p&gt;</content><category term="News"></category></entry><entry><title>ACM Member</title><link href="https://mrprajesh.co.in/acm-member.html" rel="alternate"></link><published>2018-12-30T12:15:00+05:30</published><updated>2018-12-30T12:15:00+05:30</updated><author><name>Rajesh Pandian M</name></author><id>tag:mrprajesh.co.in,2018-12-30:/acm-member.html</id><content type="html">&lt;p&gt;Rajesh's has joined as member of ACM. He has got an unique url and email at ACM.
@@ -149,69 +147,7 @@ The coolest thing about pelican is you do not have to know html to create webpag
 I created a few text files (more preciely markdown files) and pelican generated the HTML files for me.
 Of course you need know the markdown syntax -- That's is not hard too.
 Moreover, I have enabled the render math add-on.
-So, any &lt;span class="math"&gt;\(\LaTeX\)&lt;/span&gt; math symbols are rendered automatically.&lt;/p&gt;
+So, any $\LaTeX$ math symbols are rendered automatically.&lt;/p&gt;
 &lt;p&gt;Installing and setting up pelican takes only few minutes (or few commands).&lt;/p&gt;
 &lt;h3 id="render-math-pelican-plugins"&gt;&lt;a class="toclink" href="#render-math-pelican-plugins"&gt;Render Math - Pelican plugins&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Lets try some render math. &lt;span class="math"&gt;\(A_{m \times n} B_{n \times m} = C_{m \times m}\)&lt;/span&gt;.&lt;/p&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</content><category term="News"></category></entry></feed>
+&lt;p&gt;Lets try some render math. $A_{m \times n} B_{n \times m} = C_{m \times m}$.&lt;/p&gt;</content><category term="News"></category></entry></feed>

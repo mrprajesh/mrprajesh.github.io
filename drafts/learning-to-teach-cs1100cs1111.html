@@ -101,24 +101,23 @@
 <li>the blow is a error in C/gcc. it is okay if you compile with gcc</li>
 </ul>
 <p>swap(a,b);</p>
-<div class="codehilite"><pre><span></span>void swap(int &amp;a, int &amp;b){
+<div class="codehilite"><pre><span></span><code>void swap(int &amp;a, int &amp;b){
   *a = *a + *b;
   *b = *a - *b;
   *a = *a - *b;
 }
-</pre></div>
-
+</code></pre></div>
 
 <ul>
 <li>This is how we should do in c/gcc</li>
 </ul>
 <p>swap(&amp;a,&amp;b)</p>
-<div class="codehilite"><pre><span></span>void swap(int *a, int *b){
+<div class="codehilite"><pre><span></span><code>void swap(int *a, int *b){
   *a = *a + *b;
   *b = *a - *b;
   *a = *a - *b;
 }
-</pre></div>
+</code></pre></div>
         </div><!-- /.entry-content -->
 
 </article>
