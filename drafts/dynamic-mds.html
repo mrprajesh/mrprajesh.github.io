@@ -66,8 +66,8 @@
 <p>tags: <a href="../tag/dynamic-graphs.html">Dynamic graphs</a><a href="../tag/algorithm.html">Algorithm</a></p></p></footer><!-- /.post-info --><!-- /.post-info -->
         <h2 id="problem-description"><a class="toclink" href="#problem-description">Problem Description</a></h2>
 <ul>
-<li>Input: Tree <span class="math">\(T(V,E)\)</span> or forest <span class="math">\(F(V,E)\)</span></li>
-<li>Output: Minimum Dominating set(MDS) <span class="math">\(D \subseteq V\)</span></li>
+<li>Input: Tree $T(V,E)$ or forest $F(V,E)$</li>
+<li>Output: Minimum Dominating set(MDS) $D \subseteq V$</li>
 <li>Update: Add leaf node or remove a leaf node.</li>
 </ul>
 <h2 id="abstract"><a class="toclink" href="#abstract">Abstract</a></h2>
@@ -81,121 +81,59 @@ vertex/edge update. </p>
 <ul>
 <li>Dynamic MDS on a tree/forest<ol>
 <li>Add or remove leaf</li>
-<li>Add or remove edge such that <span class="math">\(G\)</span> is forest</li>
+<li>Add or remove edge such that $G$ is forest</li>
 <li>Add or remove vertex
-Let <span class="math">\(T\)</span> represent a tree (and <span class="math">\(F\)</span> represents the forest).</li>
+Let $T$ represent a tree (and $F$ represents the forest).</li>
 </ol>
 </li>
 </ul>
 <h2 id="algorithm-and-data-structure"><a class="toclink" href="#algorithm-and-data-structure">Algorithm and Data structure</a></h2>
-<p>For each <span class="math">\(v \in V\)</span></p>
+<p>For each $v \in V$</p>
 <ul>
-<li><span class="math">\(v\)</span>.dominates = set of vertices that <span class="math">\(v\)</span> dominates.</li>
-<li><span class="math">\(v\)</span>.dominatedBy = set of vertices dominated by vertex <span class="math">\(v\)</span>.</li>
+<li>$v$.dominates = set of vertices that $v$ dominates.</li>
+<li>$v$.dominatedBy = set of vertices dominated by vertex $v$.</li>
 </ul>
 <h3 id="minimal-dominating-set-on-trees"><a class="toclink" href="#minimal-dominating-set-on-trees">Minimal Dominating Set on trees</a></h3>
-<p>A set <span class="math">\(D\)</span> is said to be minimal dominating set if not proper subset 
-of <span class="math">\(D\)</span> is a dominating set.</p>
-<p>InsertLeafOf<span class="math">\((u,v)\)</span> {</p>
-<p>// <span class="math">\(u\)</span> is the existing vertex and <span class="math">\(v\)</span> is new vertex</p>
+<p>A set $D$ is said to be minimal dominating set if not proper subset 
+of $D$ is a dominating set.</p>
+<p>InsertLeafOf$(u,v)$ {</p>
+<p>// $u$ is the existing vertex and $v$ is new vertex</p>
 <ul>
-<li>if <span class="math">\(u \notin D\)</span> <ul>
-<li>add <span class="math">\(v\)</span> to <span class="math">\(D\)</span></li>
+<li>if $u \notin D$ <ul>
+<li>add $v$ to $D$</li>
 </ul>
 </li>
 </ul>
 <p>}</p>
-<p>DeleteLeaf(<span class="math">\(v\)</span>) {</p>
-<p>// <span class="math">\(v\)</span> is a leaf and <span class="math">\(u\)</span> its only neighbour.</p>
+<p>DeleteLeaf($v$) {</p>
+<p>// $v$ is a leaf and $u$ its only neighbour.</p>
 <ul>
-<li>if <span class="math">\(v \in D\)</span><ul>
-<li>Remove <span class="math">\(v\)</span> from <span class="math">\(D\)</span></li>
+<li>if $v \in D$<ul>
+<li>Remove $v$ from $D$</li>
 </ul>
 </li>
 </ul>
 <p>}</p>
 <p>Unlike maximum matching and maximal matching where the relationship is at at most 2, 
 the relationship between minimum dominating set and minimal dominating set can be 
-arbitrarily large. For example,Star graph has a Minimal DS <span class="math">\(D_l\)</span> where <span class="math">\(|D_l|= n-1\)</span> and minimum DS <span class="math">\(D\)</span> where <span class="math">\(|D|=1\)</span>.</p>
+arbitrarily large. For example,Star graph has a Minimal DS $D_l$ where $|D_l|= n-1$ and minimum DS $D$ where $|D|=1$.</p>
 <h3 id="minimum-dominating-set"><a class="toclink" href="#minimum-dominating-set">Minimum Dominating Set</a></h3>
 <p>status: hidden
-Let the forest be represented as <span class="math">\(F(V,E)\)</span> where <span class="math">\(V\)</span> and <span class="math">\(E\)</span> represents
+Let the forest be represented as $F(V,E)$ where $V$ and $E$ represents
 the vertex and edges set at the time instant during the update. 
-Let the minimum dominating set is represented as <span class="math">\(D\)</span>.
-The remaining vertices is represented as <span class="math">\(\bar D = V \setminus D\)</span>.
+Let the minimum dominating set is represented as $D$.
+The remaining vertices is represented as $\bar D = V \setminus D$.
 Assuming the trees in the forest is rooted at some arbitrary vertex.</p>
-<p><strong>Critical vertex:</strong> A vertex <span class="math">\(v\)</span> in <span class="math">\(D\)</span> is said to be critical if there exist a <span class="math">\(u\)</span> 
-    in <span class="math">\(N[v]\)</span>  such that <span class="math">\(u\)</span> is dominated only by <span class="math">\(v\)</span> and no other vertex.
-    It is referred as <span class="math">\(v\)</span> is critical because of <span class="math">\(u\)</span>.
-    The vertex <span class="math">\(v \in D\)</span> is said to be non-critical if it is not a critical vertex.</p>
+<p><strong>Critical vertex:</strong> A vertex $v$ in $D$ is said to be critical if there exist a $u$ 
+    in $N[v]$  such that $u$ is dominated only by $v$ and no other vertex.
+    It is referred as $v$ is critical because of $u$.
+    The vertex $v \in D$ is said to be non-critical if it is not a critical vertex.</p>
 <p>This following is the crucial observation</p>
-<p><strong>Invariant</strong>: There exist an MDS in <span class="math">\(T\)</span> with only the non-leaf nodes
-in the dominating set <span class="math">\(D\)</span>.</p>
+<p><strong>Invariant</strong>: There exist an MDS in $T$ with only the non-leaf nodes
+in the dominating set $D$.</p>
 <p>This helps in achieving a faster update time.</p>
 <h2 id="correctness-and-analysis"><a class="toclink" href="#correctness-and-analysis">Correctness and analysis</a></h2>
 <h2 id="conclusion"><a class="toclink" href="#conclusion">Conclusion</a></h2>
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width < 768) ? "left" : align;
-        indent = (screen.width < 768) ? "0em" : indent;
-        linebreak = (screen.width < 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/latest.js?config=TeX-AMS-MML_HTMLorMML';
-
-    var configscript = document.createElement('script');
-    configscript.type = 'text/x-mathjax-config';
-    configscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'none' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        availableFonts: ['STIX', 'TeX']," +
-        "        preferredFont: 'STIX'," +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(configscript);
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-</script>
         </div><!-- /.entry-content -->
 
 </article>
