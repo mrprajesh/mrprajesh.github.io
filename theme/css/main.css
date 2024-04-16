@@ -490,3 +490,10 @@ $terminal-window-height: 30px;
   }
 }
 
+
+summary { 
+  cursor: pointer;
+  color: #008DB8;
+	padding: 0 1px;
+	text-decoration: underline;    
+  }
